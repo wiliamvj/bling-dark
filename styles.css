@@ -1,0 +1,153 @@
+/* ==UserStyle==
+@name        Bling Dark
+@version     1.0
+@homepageURL https://github.com/wiliamvj/bling-dark
+@author      Wiliam V. Joaquim
+*/
+/* Home */
+.box-content, #container .box-content {
+  background: #282a36;
+}
+
+.home-stat, .blog-posts span {
+  color: #50fa7b;
+}
+
+.card h2 {
+  color: #f8f8f2;
+  border-bottom: 1px solid #44475a;
+}
+
+.blog-posts, .home-stats, .home-espaco {
+  border: 1px solid #44475a;
+  border-radius: 5px;
+}
+
+.home-stat h3 {
+  color: #8be9fd;
+  border-top: 1px solid #44475a;
+}
+
+.card-espaco-header {
+  background-color: #44475a;
+  border-radius: 5px;
+}
+
+.card-espaco-header .header-text-container {
+  color: #f8f8f2;
+  margin-bottom: 5px;
+}
+
+/* BTN primary */
+.button-default-novo {
+  background-color: #50fa7b;
+  border: 1px solid #06591b;
+  color: #44475a;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.button-default-novo:hover {
+  background-color: #24b048;
+  border: 1px solid #06591b;
+  color: #44475a;
+}
+
+/* BTN Seundary */
+.btn-secundary-novo {
+  background-color: #44475a;
+  border: 1px solid #6272a4;
+  color: #f8f8f2;
+  transition: 0.2s;
+}
+
+.btn-secundary-novo:hover {
+  background-color: #6272a4;
+  border: 1px solid #6272a4;
+  color: #f8f8f2;
+}
+
+/* Link */
+a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
+  color: #6272a4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f8f8f2;
+  text-decoration: none;
+}
+
+div[class^=useful-info] {
+  background-color: #6272a4;
+  color: #f8f8f2;
+  border-radius: 5px;
+}
+
+div[class^=useful-info]:before {
+  color: #f1fa8c;
+}
+
+/* menu left*/
+.quick-access {
+  background: #44475a;
+}
+
+.quick-access h2, .menu-dados-empresa h2 {
+  color: #50fa7b;
+  border-bottom: 1px solid #282a36;
+}
+
+.quick-access h3, .menu-dados-empresa h3 {
+  color: #f1fa8c;
+}
+
+.quick-access li a, .menu-dados-empresa li a {
+  color: #f8f8f2;
+}
+
+.quick-access li a:hover, .menu-dados-empresa li a:hover {
+  color: #cccc;
+}
+
+/* menu top */
+#top-menu {
+  background: #44475a;
+  box-shadow: 1px 0.5px 8px #282a36;
+}
+
+#menu-novo li a {
+  color: #f8f8f2;
+}
+
+#menu_novo li ul, #menu-novo li ul, #menu-acoes li.menu ul {
+  background: #6272a4;
+  border: none !important;
+  box-shadow: 0px 3px 6px #282a36;
+}
+
+#menu_novo li ul li a, #menu-novo li ul li a, #menu-acoes li ul li a {
+  color: #f8f8f2 !important;
+  font-weight: bold;
+}
+
+#menu_novo li ul li:hover, #menu_novo li ul li a:hover, #menu-novo li ul li:hover, #menu-novo li ul li a:hover, #menu-acoes li ul li a:hover {
+  background-color: #44475a;
+}
+
+#menu-acoes i {
+  color: #6272a4;
+}
+
+/* footer */
+#footer-container {
+  background-color: #44475a;
+  box-shadow: 1px 0.5px 8px #282a36;
+}
+
+/* chat */
+.u-userLauncherColor:not([disabled]) {
+  background-color: #50fa7b !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

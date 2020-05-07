@@ -1,0 +1,218 @@
+/* ==UserStyle==
+@name        Bling Dark
+@version     1.0
+@homepageURL https://github.com/wiliamvj/bling-dark
+@author      Wiliam V. Joaquim
+*/
+
+$color-primary: #282a36;
+$color-secudary: #44475a;
+
+$color-select: #44475a;
+$color-white: #f8f8f2;
+$color-comment: #6272a4;
+
+$yellow: #f1fa8c;
+$red: #ff5555;
+$purple: #bd93f9;
+$orange: #ffb86c;
+$green: #50fa7b;
+$cyan: #8be9fd;
+$pink: #ff79c6;
+$grey: #cccc;
+
+$green-hover: #06591b;
+$green-hover-background: #24b048;
+
+
+/* Home */
+
+.box-content, #container .box-content{
+    background: $color-primary;
+}
+
+.home-stat, .blog-posts span {
+	color: $green;
+}
+
+.card h2 {
+    color: $color-white;
+	border-bottom: 1px solid $color-select;
+}
+
+.blog-posts, .home-stats, .home-espaco {
+	border: 1px solid $color-select;
+	border-radius: 5px;
+}
+
+.home-stat h3 {
+	color: $cyan;
+	border-top: 1px solid $color-select;
+}
+
+.card-espaco-header {
+	background-color: $color-select;
+	border-radius: 5px;
+}
+
+.card-espaco-header .header-text-container {
+	color: $color-white;
+	margin-bottom: 5px;
+}
+
+/* BTN primary */
+
+.button-default-novo {
+	background-color: $green;
+	border: 1px solid $green-hover;
+	color: $color-select;
+	font-weight: bold;
+	transition: 0.2s;
+}
+
+.button-default-novo:hover {
+	background-color: $green-hover-background;
+	border: 1px solid $green-hover;
+	color: $color-select;
+}
+
+
+/* BTN Seundary */
+
+.btn-secundary-novo {
+	background-color: $color-select;
+	border: 1px solid $color-comment;
+	color: $color-white;
+	transition: 0.2s;
+}
+
+.btn-secundary-novo:hover {
+	background-color: $color-comment;
+	border: 1px solid $color-comment;
+	color: $color-white;
+}
+
+/* Link */
+
+a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
+	color: $color-comment;
+	text-decoration: none;
+}
+
+a:hover {
+	color: $color-white;
+	text-decoration: none;
+}
+
+div[class^="useful-info"] {
+	background-color: $color-comment;
+	color: $color-white;
+	border-radius: 5px;
+}
+
+div[class^="useful-info"]:before {
+	color: $yellow;
+}
+
+/* menu left*/
+
+.quick-access {
+	background: $color-select;
+}
+
+.quick-access h2, .menu-dados-empresa h2 {
+	color: $green;
+	border-bottom: 1px solid $color-primary;
+}
+
+.quick-access h3, .menu-dados-empresa h3 {
+	color: $yellow;
+}
+
+.quick-access li a, .menu-dados-empresa li a {
+	color: $color-white;
+}
+
+.quick-access li a:hover, .menu-dados-empresa li a:hover {
+	color: $grey;
+}
+
+/* menu top */
+
+#top-menu {
+	background: $color-select;
+	box-shadow: 1px 0.5px 8px $color-primary;
+}
+
+#menu-novo li a {
+	color: $color-white;
+}
+
+#menu_novo li ul, #menu-novo li ul, #menu-acoes li.menu ul {
+	background: $color-comment;
+	border: none !important;
+	box-shadow: 0px 3px 6px $color-primary;
+}
+
+#menu_novo li ul li a, #menu-novo li ul li a, #menu-acoes li ul li a{
+	color: $color-white !important;
+	font-weight: bold
+}
+
+#menu_novo li ul li:hover, #menu_novo li ul li a:hover, #menu-novo li ul li:hover, #menu-novo li ul li a:hover, #menu-acoes li ul li a:hover {
+    background-color: $color-select;
+}
+
+#menu-acoes i {
+	color: $color-comment;
+}
+
+
+/* footer */
+#footer-container {
+	background-color:  $color-select;
+	box-shadow: 1px 0.5px 8px $color-primary;
+}
+
+/* chat */
+
+.u-userLauncherColor:not([disabled]) {
+	background-color: $green !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
