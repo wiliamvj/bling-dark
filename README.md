@@ -1,4 +1,4 @@
-## Tema Dark Dracula para o Bling ERP
+##  👨🏻‍💻 Tema Dark Dracula para o Bling ERP
 
 Em breve novas páginas serão adicionadas
 
@@ -10,7 +10,7 @@ Copie o código do arquivo `styles.css` para o estilo criado. E adicione a URL q
 
 ### Páginas já com cores do Dracula:
 
-### ✅ Home
+### 🚀 Home
 
 ### Cadastros
 - ❌ Clientes e Fornecedores
@@ -37,9 +37,19 @@ Copie o código do arquivo `styles.css` para o estilo criado. E adicione a URL q
 - ❌ Pedidos de Venda Multilojas
 - ❌ Relatórios
 
+### Finanças
+- ❌ Caixas e Bancos
+- ❌ Contas a Pagar
+- ❌ Contas a Receber
+- ❌ Remessas e Retornos
+- ❌ Ficha Financeira
+- ❌ Relatórios
 
+### Serviços
+- ❌ CT-e
 
+### ❌ Preferências
 
+### ❌ Manuais
 
-<br>
-
+### ❌ Suporte
