@@ -8,7 +8,7 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `styles.css` para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-### Páginas já com cores do Dracula estão marcados com 🚀 ainda sem estilização marcados com ❌.
+#### Páginas já com cores do Dracula estão marcados com 🚀 ainda sem estilização marcados com ❌.
 
 ### 🚀 Home
 
