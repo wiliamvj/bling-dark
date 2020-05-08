@@ -306,6 +306,10 @@ a.clr, span.link.clear-all:hover {
   color: #f8f8f2;
 }
 
+.ui-dialog-new .ui-button-text {
+  color: #f8f8f2;
+}
+
 /* products end */
 /* product details */
 .label-item-form, .titulo_input {

@@ -294,9 +294,11 @@ a.clr, span.link.clear-all:hover {
 
 #content-filter .input-group-addon {
     color: $color-white;
-  }
+}
 
-
+.ui-dialog-new .ui-button-text {
+	color: $color-white
+}
 
 
 
