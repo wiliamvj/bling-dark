@@ -1,7 +1,331 @@
+@import "variables";
+
 /* products init */
 
-.teste {
-    color: white;
+#container {
+	background: $color-primary !important;
 }
+
+.breadcrumb, #header-list {
+	background: $color-primary;
+	color: $color-white;
+}
+
+.breadcrumb li:last-child {
+	color: $color-white;
+}
+
+#container.filter-left .search-bar {
+	background: $color-primary;
+}
+
+#datatable table thead tr th, [id^="addDatatable"] table thead tr th {
+	background: $color-primary;
+	color: $color-white;
+	font-weight: bold;
+}
+
+#main-container {
+	background: $color-primary !important;
+}
+
+.tabela-listagem>tbody>tr {
+	background:$color-secudary;
+	border-bottom: 3px solid $color-primary;
+	transition: 0.2s;
+}
+
+.tabela-listagem tr:not(.remove-hover):hover {
+	background: $color-comment;
+}
+
+#datatable td, [id^="addDatatable"] td, .painel-parametros .datatable td {
+	color: $color-white;
+	font-weight: bold;
+}
+
+.btn-invisible {
+	color: $color-primary;
+}
+
+.new-search-action {
+    background-color: $color-secudary;
+    border-color: $color-secudary;
+    color: $color-white;
+	transition: 0.2s;
+}
+
+.new-search-action:hover{
+	background-color: $color-secudary;
+	border-color: $color-secudary;
+}
+
+#search-input input {
+	border-color: $color-secudary;
+	background-color: $color-secudary;
+}
+.clear-input {
+	color: $red;
+}
+
+.clear-input:hover {
+	opacity: 0.6;
+}
+
+#search-input input:focus {
+	border-color: $color-secudary;
+	background-color: $color-white;
+}
+
+.badge-light {
+	background-color: $orange;
+	border: 1px solid #b5620a;
+	color: $color-primary;
+	font-weight: bold;
+}
+
+#search-tag .clear-tag {
+	color: $red;
+}
+
+#search-tag .clear-tag:hover {
+	opacity: 0.5;
+}
+
+a.clr, span.link.clear-all {
+	color: $color-secudary;
+}
+
+.tabela-listagem tr.selected {
+	background-color: $red !important;
+}
+
+.input-checkbox input[type="checkbox"]:checked + label {	
+	background-color: $green;
+	border: 1px solid #06591b;
+}
+
+.input-checkbox input[type="checkbox"]:checked + label:after {
+	color: $color-primary;
+}
+
+.new-side-bar-help, .dropdown-menu {
+	box-shadow: 0px 3px 6px $color-primary;
+}
+
+.dropdown-menu {
+	background: $color-secudary;
+	color: $color-white;
+}
+
+.tabela-listagem .dropdown-menu>li>a {
+	color: $color-white !important;
+}
+
+.tabela-listagem .dropdown-menu>li>a:hover, .dropdown-menu>li>a:hover i, .dropdown-action-btn:hover {
+	background-color: $color-primary !important;
+}
+
+.common-action-container button, .navbar-action-container button {
+    background-color: $color-secudary;
+	border-color: $color-secudary;
+}
+
+.common-action-container button:hover, .navbar-action-container button:hover {
+    background-color: $color-comment;
+	border-color: $color-secudary;
+}
+
+#sacola_compras[data-qty="0"] {
+	color: $green;
+}
+
+.common-action-container .fa-print {
+	color: $cyan;
+}
+
+.act-excluir {
+    background-color: $red !important;
+	border-color: $red !important;
+}
+
+.act-excluir:hover {
+    background-color: #bb2424 !important;
+}
+
+.common-action-container .fa-trash-alt  {
+	color: $color-white !important;
+}
+
+/* menu right */
+.new-box-side-minimized .new-main-div, .new-box-side {
+	background: $color-secudary;
+}
+
+.new-main-div {
+	background-color: $color-primary;
+}
+
+.new-side-bar .main-actions div.border-bottom {
+	border: 1px solid $color-primary;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .new-box-side-minimized button:not(.button-default-novo):hover, .new-side-bar .main-actions button .action-text, .bootstrap-select > .dropdown-toggle.bs-placeholder, .new-side-bar select, .new-side-bar option, .new-box-side-minimized .dropdown-item.dropdown-action-btn {
+	color: $green;
+	transition: 0.2s;
+}
+
+.new-side-bar .main-actions button:not(.block) span.far, .new-side-bar .main-actions button:not(.block) span.fas {
+	color:#f1fa8c;
+	transition: 0.2s;
+}
+
+div.more-actions:not(.open):hover, .new-box-side:not(.new-box-side-minimized) .new-side-bar .main-actions button:not(.block):hover, .new-box-side:not(.new-box-side-minimized) .new-side-bar li.action-item:not(.block):hover {
+	background-color: $color-secudary;
+	opacity: 0.6;
+}
+
+.new-box-side-minimized {
+	border: 1px solid $color-primary;
+}
+
+.default-actions button:hover, .new-side-bar-minimize:hover, .new-box-side-minimized .new-side-bar-minimize:hover, .new-box-side-minimized button:not(.button-default-novo):hover, .new-box-side-minimized .new-side-bar-help span:hover {
+	background-color: $color-primary;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+	color: $color-white;
+}
+
+.new-side-bar .more-actions span:first-of-type {
+	color: $color-white;
+}
+
+.new-side-bar .more-actions span:nth-child(2) {
+	color: $orange;
+}
+
+.action-list .action-group {
+	color: $color-white;
+}
+.action-list .action-item {
+	color: $grey;
+}
+
+.new-side-bar .info-text {
+	color: $color-white;
+}
+
+.info-label {
+	color: $grey;
+}
+
+.new-side-bar-help .fa-server.green, .new-side-bar .info-value, .popover-sidebar .info-value {
+	color: $green;
+	font-weight: bold;
+}
+
+/* menu left */
+.open-filter {
+	background: $green 0% 0% no-repeat padding-box;
+	box-shadow: 0px 3px 6px $color-secudary;
+	border-radius: 5px 10px 10px 0px;
+}
+.open-filter .fa-filter {
+	color: $color-secudary;
+}
+
+#modal-filter .ui-dialog-titlebar, #modal-filter .ui-dialog-titlebar-close, #modal-filter .ui-dialog-content, #modal-filter .ui-dialog-content .ui-dialog-buttonpane, #search-left-area.open, #search-left-area #filter-button-area, #search-left-area .over-shadow, #search-left-area div#title-filter {
+	background: $color-secudary;
+}
+
+#search-left-area #title-filter h1 {
+	color: $color-white;
+}
+
+#search-left-area #title-filter .fa-chevron-left {
+	color: $color-white;
+}
+
+#search-left-area #title-filter span.fa-filter {
+	color: $orange;
+}
+
+#content-filter label {
+	color: $grey;
+	font-weight: bold
+}
+
+#search-left-area .form-group:not(.filtro-dinamico-area) > select, #search-left-area .form-group:not(.filtro-dinamico-area) > .tree-select {
+    background-image: linear-gradient(45deg, transparent 48%, $color-secudary 50%), linear-gradient(135deg, $color-secudary 48%, transparent 50%);
+}
+
+.item-form, .group-item-form .chosen-choices {
+	background-color: $color-primary;
+	color: $color-white;
+}
+
+#content-filter input, #content-filter select, #content-filter .tree-select {
+	color: $color-white;
+}
+
+.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
+	border: 1px solid $color-secudary;
+}
+
+.tree-select-container li:hover, .tree-select-container .selected {
+	background-color: $color-primary;
+}
+
+a.clr, span.link.clear-all:hover {
+	color: $color-white;
+	text-decoration: none;
+}
+
+/* pagination */
+.pagination li:first-of-type span.border-right:not(.is-infinity):first-of-type, .pagination li:nth-of-type(4) span.border-right:not(.is-infinity):first-of-type {
+	border-right: 1px solid $color-primary;
+}
+
+.pagination>li>a, .pagination>li>span, .pagination>li>a:hover, .pagination>li>span:hover {
+	color: $color-primary;
+}
+
+#content-filter .input-group-addon {
+    color: $color-white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* products end */
