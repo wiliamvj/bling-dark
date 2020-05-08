@@ -267,6 +267,7 @@ div.more-actions:not(.open):hover, .new-box-side:not(.new-box-side-minimized) .n
 
 #content-filter input, #content-filter select, #content-filter .tree-select {
 	color: $color-white;
+	border: 1px solid $black;
 }
 
 .item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
