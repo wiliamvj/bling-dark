@@ -4,8 +4,10 @@
 @homepageURL https://github.com/wiliamvj/bling-dark
 @author      Wiliam V. Joaquim
 
-init SASS: sass --watch styles.scss:styles.css
+init SASS: sass --watch scss:css
 */
+
+@import "products";
 
 $color-primary: #282a36;
 $color-secudary: #44475a;

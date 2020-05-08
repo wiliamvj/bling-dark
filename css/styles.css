@@ -3,7 +3,14 @@
 @version     1.0
 @homepageURL https://github.com/wiliamvj/bling-dark
 @author      Wiliam V. Joaquim
+
+init SASS: sass --watch styles.scss:styles.css
 */
+.teste {
+  color: white;
+}
+
+/* teste */
 /* Home */
 .box-content, #container .box-content {
   background: #282a36;
