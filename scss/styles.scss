@@ -31,21 +31,21 @@ html, body {
 
 .card h2 {
     color: $color-white;
-	border-bottom: 1px solid $color-select;
+	border-bottom: 1px solid $color-secudary;
 }
 
 .blog-posts, .home-stats, .home-espaco {
-	border: 1px solid $color-select;
+	border: 1px solid $color-secudary;
 	border-radius: 5px;
 }
 
 .home-stat h3 {
 	color: $cyan;
-	border-top: 1px solid $color-select;
+	border-top: 1px solid $color-secudary;
 }
 
 .card-espaco-header {
-	background-color: $color-select;
+	background-color: $color-secudary;
 	border-radius: 5px;
 }
 
@@ -59,7 +59,7 @@ html, body {
 .button-default-novo {
 	background-color: $green;
 	border: 1px solid $green-hover;
-	color: $color-select;
+	color: $color-secudary;
 	font-weight: bold;
 	transition: 0.2s;
 }
@@ -67,14 +67,14 @@ html, body {
 .button-default-novo:hover {
 	background-color: $green-hover-background;
 	border: 1px solid $green-hover;
-	color: $color-select;
+	color: $color-secudary;
 }
 
 
 /* BTN Seundary */
 
 .btn-secundary-novo {
-	background-color: $color-select;
+	background-color: $color-secudary;
 	border: 1px solid $color-comment;
 	color: $color-white;
 	transition: 0.2s;
@@ -111,7 +111,7 @@ div[class^="useful-info"]:before {
 /* menu left*/
 
 .quick-access {
-	background: $color-select;
+	background: $color-secudary;
 }
 
 .quick-access h2, .menu-dados-empresa h2 {
@@ -134,7 +134,7 @@ div[class^="useful-info"]:before {
 /* menu top */
 
 #top-menu {
-	background: $color-select;
+	background: $color-secudary;
 	box-shadow: 1px 0.5px 8px $color-primary;
 }
 
@@ -154,7 +154,7 @@ div[class^="useful-info"]:before {
 }
 
 #menu_novo li ul li:hover, #menu_novo li ul li a:hover, #menu-novo li ul li:hover, #menu-novo li ul li a:hover, #menu-acoes li ul li a:hover {
-    background-color: $color-select;
+    background-color: $color-secudary;
 }
 
 #menu-acoes i {
@@ -164,7 +164,7 @@ div[class^="useful-info"]:before {
 
 /* footer */
 #footer-container {
-	background-color:  $color-select;
+	background-color:  $color-secudary;
 	box-shadow: 1px 0.5px 8px $color-primary;
 }
 

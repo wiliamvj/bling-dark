@@ -85,7 +85,6 @@ h3.subtitulo {
 
 .ui-dialog-new .ui-dialog-buttonpane .ui-button {
 	border-radius: 4px;
-	
 }
 
 .ui-dialog .ui-dialog-titlebar, .ui-dialog-buttonpane {
@@ -177,4 +176,81 @@ table.grid-header th, table.tabela-numerada tr td:first-child::before {
 
 .mce-content-body {
 	color: $color-white;
+}
+
+#gridItensVariacao .table-row, div.tabela-fornecedores .table-body .table-row {
+	color: $color-white;
+	font-weight: bold;
+}
+
+div.table-cell {
+	border: 1px solid $color-secudary; 
+}
+
+.tab-area-vertical .selecionado {
+	background: $color-comment;
+}
+
+.tab-area-vertical li {
+	border-bottom: 2px solid $color-primary; 
+    background: $color-secudary;
+}
+
+.tab-area-vertical li a {
+	color: $color-white;
+}
+
+.tab-area-vertical {
+	border-right: 1px solid $black;
+}
+
+.tab-area-vertical li:last-of-type {
+	border-bottom: 1px solid $black;
+}
+.tab-area-vertical li:hover, .tab-area-vertical li:hover {
+	background: $color-comment !important;
+}
+
+button.button-cancel {
+	border-radius: 4px !important;
+}
+
+button.button-cancel:hover {
+	background-color: $color-comment !important;
+}
+
+.table-row:hover {
+	background-color: $color-secudary !important;
+}
+
+.input_text {
+	border: 1px solid $color-primary;
+}
+
+.ui-dialog .subtitulo {
+	color: $color-white;
+}
+
+.label-item-form, .titulo_input {
+	margin-top: 20px;
+}
+
+tr.higlight{ 
+	background-color: $green !important;
+}
+
+div.table-cell, div.table-head {
+	color: $color-white;
+}
+
+.tableIcon {
+	color: $color-comment;
+}
+
+#tinymce p {
+	color: $color-white !important;
+}
+
+table.tabela-numerada tr {
+   background-color: $color-secudary !important;
 }
