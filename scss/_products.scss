@@ -49,19 +49,18 @@
 }
 
 .new-search-action {
-    background-color: $color-secudary;
-    border-color: $color-secudary;
+    background-color: $green;
+    border-color: $black !important;
     color: $color-white;
 	transition: 0.2s;
 }
 
 .new-search-action:hover{
-	background-color: $color-secudary;
-	border-color: $color-secudary;
+	background-color: $green-hover;
 }
 
 #search-input input {
-	border-color: $color-secudary;
+	border-color: $black;
 	background-color: $color-secudary;
 }
 .clear-input {

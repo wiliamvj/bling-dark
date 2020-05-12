@@ -13,9 +13,10 @@ Copie o código do arquivo `styles.css` dentro da pasta **CSS** para o estilo cr
 ### 🚀 Home
 
 ### Cadastros
-- ❌ Clientes e Fornecedores
+- 🚀 Clientes e Fornecedores (Listagem)
+    - ❌ Detalhes dos Clients
 - 🚀 Produtos
-    - 🚀 Detalhes dos Produtos
+    - 🚀 Detalhes dos Produtos (Listagem)
 - ❌ Vendedores
 - ❌ Relatórios
 
