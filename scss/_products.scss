@@ -314,7 +314,45 @@ a.clr, span.link.clear-all:hover {
 	background-color: $color-primary;
 }
 
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background-color: $color-secudary
+}
+.ui-widget-header .ui-icon:hover {
+	opacity: 0.5;
+}
 
+#tags-area, .ui-dialog-new .ui-dialog-content, .ui-dialog .ui-dialog-content {
+	color: $color-white;
+}
+
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+	background-color: $color-secudary;
+	color: $color-white;
+    border: 1px solid $black;
+	font-weight: bold;
+	padding: 5px;
+	font-family: "Roboto",sans-serif;
+}
+
+#relatorio tr th, #datatable tr th, .datatable tr th {
+	background-color: $color-primary !important;
+	color: $color-white;
+	border-bottom: none;
+}
+
+#relatorio tr, #datatable tr th, .datatable tr {
+	background-color: $color-primary !important;
+	color: $color-white;
+	border-bottom: none;
+}
+
+#relatorio tr td, #datatable tr td, .datatable tr td {
+	border: none;
+}
+
+.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
+	color: $color-primary;
+}
 
 
 
