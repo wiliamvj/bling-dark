@@ -354,6 +354,28 @@ a.clr, span.link.clear-all:hover {
 	color: $color-primary;
 }
 
+#reajuste_precos {
+	background-color: $green;
+	color:$color-primary;
+}
+
+#reajuste_precos a, #reajuste_precos .close-reajuste {
+	color:$color-primary;
+}
+
+#toggle_reajuste {
+	background-color: $color-secudary;
+}
+
+legend {
+	color: $color-white;
+}
+
+.conversao-unidade button {
+    background-color: $green;
+    border: 1px solid $green-hover;
+    color: $color-primary;
+}
 
 
 
