@@ -62,7 +62,14 @@
 #search-input input {
 	border-color: $black;
 	background-color: $color-secudary;
+	color: $color-white;
+	font-weight: bold;
 }
+#search-input input:focus {
+	color: $color-primary;
+	font-weight: bold;
+}
+
 .clear-input {
 	color: $red;
 }
