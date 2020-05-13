@@ -109,3 +109,24 @@ div.table .table-body .table-row {
 	color: $color-white;
 	font-weight: bold;
 }
+
+.box-side ul li a {
+	color: $color-white;
+}
+
+.box-side ul li a:hover, .box-side ul li a:focus {
+    background-color: $color-secudary;
+    color: $color-white;
+}
+
+.button-search-base {
+	border: 1px solid black;
+}
+
+.fa-search {
+	color: $color-white;
+}
+
+.button-search-base:hover {
+	background: $color-secudary;
+}
