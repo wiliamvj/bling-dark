@@ -299,6 +299,20 @@ a.clr, span.link.clear-all:hover {
 	color: $color-white
 }
 
+.box-retorno-integracao {
+	border: none !important;
+	color: $color-white;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.ui-dialog{
+	background-image: none;
+}
+
+.ui-widget-content {
+	background-color: $color-primary;
+}
 
 
 

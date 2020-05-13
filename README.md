@@ -14,7 +14,7 @@ Copie o código do arquivo `styles.css` dentro da pasta **CSS** para o estilo cr
 
 ### Cadastros
 - 🚀 Clientes e Fornecedores (Listagem)
-    - ❌ Detalhes dos Clients
+    - ❌ Detalhes dos Clientes
 - 🚀 Produtos
     - 🚀 Detalhes dos Produtos (Listagem)
 - ❌ Vendedores
