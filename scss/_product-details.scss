@@ -243,6 +243,6 @@ div.table-cell, div.table-head {
 	color: $color-white !important;
 }
 
-table.tabela-numerada tr {
-   background-color: $color-secudary !important;
+.input_text:focus, .input_textarea:focus, .select:focus, submit:focus {
+	color: $color-primary;
 }

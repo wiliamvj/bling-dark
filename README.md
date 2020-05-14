@@ -33,7 +33,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - ❌ NFC-e
 - ❌ Propostas Comerciais
 - 🚀 Pedidos de Venda (Listagem)
-    - ❌ Detalhes dos Pedidos 
+    - 🚀 Detalhes dos Pedidos 
 - ❌ Notas Fiscais
 - ❌ Comissões
 - ❌ Checkout de Pedidos de Venda

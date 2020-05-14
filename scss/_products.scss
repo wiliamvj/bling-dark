@@ -322,8 +322,9 @@ a.clr, span.link.clear-all:hover {
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-	background-color: $color-secudary
+	background-color: $color-white;
 }
+
 .ui-widget-header .ui-icon:hover {
 	opacity: 0.5;
 }
