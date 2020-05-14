@@ -20,7 +20,7 @@ SASS minify: sass --watch scss:css --style compressed
 
 html, body {
 	font-family: 'Roboto', sans-serif !important;
-	background: #282a36 !important;
+	background: $color-primary !important;
 }
 
 .box-content, #container .box-content{
@@ -176,6 +176,48 @@ div[class^="useful-info"]:before {
 	background-color: $green !important;
 }
 
+/* menu account*/
+
+.popover {
+	background-color: $color-comment;
+	border-radius: 5px;
+}
+
+.popover-conta .popover-title {
+	background-color: $color-secudary;
+}
+
+.popover.bottom>.arrow:after {
+	border-bottom-color: $color-secudary;
+}
+
+.popover-conta .popover-title, .popover-conta h3, .popover-conta p {
+	color: $color-white;
+	font-weight: bold;
+}
+
+.popover-title {
+	border-bottom: 1px solid $black;
+}
+
+.myAccountBtn {
+	border-radius: 4px;
+	background-color: $orange;
+	color: $color-primary;
+	transition: 0.2s
+}
+
+.myAccountBtn:hover {	
+	opacity: 0.8;
+}
+
+.popover-conta a {
+	color: $color-primary;
+}
+
+.popover-conta a:hover {
+	color: $color-primary;
+}
 
 
 
