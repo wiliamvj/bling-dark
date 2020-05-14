@@ -1,0 +1,49 @@
+@import "variables";
+
+/* sales orders */
+
+.fa-sync {
+	color: $green-hover-background;
+}
+
+#content-filter input, #content-filter select, #content-filter .tree-select {
+	background-color: $color-primary;
+}
+
+span.new {
+	background-color: $red;
+	font-size: 6.5pt;
+	font-family: "Roboto", sans-serif;
+}
+
+.label-item-form-toggle {
+	color: $color-white;
+}
+
+.linha_form p, label {
+	color: $color-white;
+}
+
+.busca-nao-encontrada h3 {
+	color: $red;
+}
+
+.alert-box p, .alert-box span, .alert-box .alert-box-title {
+	color: $color-white;
+}
+
+a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
+	color: $orange;
+}
+
+.ui-dialog .ui-dialog-titlebar, .ui-dialog-buttonpane {
+	background-color: $color-primary;
+}
+
+.ui-dialog {
+	border: 5px solid $color-secudary;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background-color: $color-primary;
+}

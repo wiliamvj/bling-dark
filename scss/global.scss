@@ -9,6 +9,7 @@ init SASS: sass --watch scss:css
 SASS minify: sass --watch scss:css --style compressed
 */
 
+@import "sales-order";
 @import "client-details";
 @import "clients";
 @import "products";
