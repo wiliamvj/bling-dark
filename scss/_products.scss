@@ -99,7 +99,7 @@
 }
 
 a.clr, span.link.clear-all {
-	color: $color-secudary;
+	color: $color-white;
 }
 
 .tabela-listagem tr.selected {
@@ -286,6 +286,7 @@ div.more-actions:not(.open):hover, .new-box-side:not(.new-box-side-minimized) .n
 
 a.clr, span.link.clear-all:hover {
 	color: $color-white;
+	opacity: 0.7;
 	text-decoration: none;
 }
 
