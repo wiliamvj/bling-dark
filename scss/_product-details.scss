@@ -123,6 +123,7 @@ button, html input[type="button"]:hover, input[type="reset"]:hover, input[type="
 	background-color: $color-secudary;
 	border: 1px solid $black;
 	color: $color-white;
+	padding: 5px;
 }
 
 .input-radio input[type="radio"]:checked + label:before {
@@ -245,4 +246,12 @@ div.table-cell, div.table-head {
 
 .input_text:focus, .input_textarea:focus, .select:focus, submit:focus {
 	color: $color-primary;
+}
+
+.icon-file {
+	color: $color-white;
+}
+
+.icon-file:hover {
+	color: $green;
 }

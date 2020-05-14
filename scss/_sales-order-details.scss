@@ -98,7 +98,7 @@ input:focus, select:focus, textarea:focus {
 
 #tags-area, .ui-dialog-new .ui-dialog-content p {
 	margin-top: 15px;
-	color: $red;
+	color: $color-white;
 }
 
 .grid th, .grid td {
@@ -125,4 +125,19 @@ div.toogle-checkbox span:after {
 
 div.toogle-checkbox span {
 	background-color: $red;
+}
+
+.message-area .alert-box-info {
+    border: 1px solid $color-primary;
+   margin-top: 5px;
+}
+
+.alert-box-info, .alert-mini-box-info {
+	background-color: $color-primary !important;
+}
+
+.alert-box p, .alert-box span, .alert-box .alert-box-title {
+	color: $color-white;
+	font-weight: bold;
+	font-size: 2rem
 }
