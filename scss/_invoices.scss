@@ -1,0 +1,71 @@
+@import "variables";
+
+/* invoices */
+
+
+.wh100 button {
+	background-color: $color-comment !important;
+}
+
+.wh100 button i:hover {
+	color: $color-comment !important;
+}
+
+.wh100 button i {
+	color: $color-white !important;
+}
+
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-titlebar, .ui-dialog-buttonpane {
+	background-color: $color-primary;
+}
+
+.linha_form p, label {
+	font-weight: bold !important;
+	padding-bottom: 5px !important;
+}
+
+.alert-box-ok {
+	background: $yellow;
+	border-radius: 4px;
+}
+
+.alert-box-ok h3 {
+	color: $color-primary !important;
+}
+
+.alert-box-ok a {
+	color: $red !important;
+	text-decoration: none !important;
+	font-size: 14px;
+	transition: 0.2s;
+}
+
+.alert-box-ok a:hover {
+	opacity: 0.7;
+}
+
+#form-nfe h2, p {
+	color: $color-white !important;
+}
+
+.display-default {
+	background-color: $pink;
+}
+
+#msgValCert.success {
+	color: $color-white;
+}
+
+#dev_popup hr {
+	border: none;
+}
+
+.dev-totais h3 {
+	color: $color-white;
+	border-bottom: none;
+}
+
+.dev-totais span {
+	color: $green;
+	font-weight: bold;
+}
