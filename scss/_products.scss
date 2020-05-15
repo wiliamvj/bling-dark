@@ -66,8 +66,12 @@
 	font-weight: bold;
 }
 #search-input input:focus {
-	color: $color-primary;
+	color: $color-comment;
 	font-weight: bold;
+}
+
+input#pesquisa-mini.pesquisa.search-input-action.ui-autocomplete-input:focus {
+	background-color: red;
 }
 
 .clear-input {
@@ -80,7 +84,8 @@
 
 #search-input input:focus {
 	border-color: $color-secudary;
-	background-color: $color-white;
+	background-color: $color-comment !important;
+	color: $color-white;
 }
 
 .badge-light {
