@@ -223,8 +223,61 @@ div[class^="useful-info"]:before {
 	color: $color-primary;
 }
 
+input:focus {
+	background-color: $color-comment !important;
+	border: 1px solid $black !important;
+	color: $color-white !important;
+}
 
+.dynamic-search .dropdown-menu .dropdown-item {
+	color: $color-white !important;
+}
 
+.dynamic-search .dropdown-menu .dropdown-item:hover {
+	background-color: $color-primary;
+}
+
+#search-left-area input.form-control:focus, #search-left-area select.form-control:focus, .form-control:focus {
+	background-color: $color-comment !important;
+	border: 1px solid $black !important;
+	color: $color-white !important;
+}
+
+.input_text:focus, .input_textarea:focus, .select:focus, submit:focus {
+	color: $color-white;
+	background-color: $color-comment;
+	border: 1px solid $black !important;
+}
+
+select.item-form * {
+	background-color: $color-secudary !important;
+	border: 1px solid $black !important;
+	color: $color-white !important;
+	margin-bottom: 3px !important;
+}
+
+.tree-select-container > ul {
+	background-color: $color-secudary !important;
+	border: 1px solid $black !important;
+}
+
+.tree-select-container > ul li label {
+	color: $color-white !important;
+}
+
+.tree-select-container {
+	background-color: $color-secudary !important;
+	border: none;
+}
+
+.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
+	background-color: $color-comment !important;
+	border: 1px solid $black !important;
+}
+
+table.grid-header td input[readOnly]:focus {
+	background-color: $color-comment !important;
+}
 
 
 
