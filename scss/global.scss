@@ -9,6 +9,7 @@ init SASS: sass --watch scss:css
 SASS minify: sass --watch scss:css --style compressed
 */
 
+@import "invoice-details";
 @import "invoices";
 @import "sales-order-details";
 @import "sales-order";
@@ -222,9 +223,6 @@ div[class^="useful-info"]:before {
 	color: $color-primary;
 }
 
-.input_icones {
-	top: 20px;
-}
 
 
 

@@ -121,7 +121,7 @@ a.clr, span.link.clear-all {
 
 .dropdown-menu {
 	background: $color-secudary;
-	color: $color-white;
+	color: $color-white !important;
 }
 
 .tabela-listagem .dropdown-menu>li>a {

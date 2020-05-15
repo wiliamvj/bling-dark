@@ -35,7 +35,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 Pedidos de Venda (Listagem)
     - 🚀 Detalhes dos Pedidos 
 - 🚀 Notas Fiscais (Listagem)
-    - ❌ Detalhes dos Pedidos 
+    - 🚀 Detalhes dos Pedidos 
 - ❌ Comissões
 - ❌ Checkout de Pedidos de Venda
 - ❌ Pedidos de Venda Multilojas

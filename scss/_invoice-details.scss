@@ -1,0 +1,28 @@
+@import "variables";
+
+/* invoice details */
+
+#tags-area, .ui-dialog-new .ui-dialog-content p {
+	font-size: 14px;
+}
+
+.input_text:focus, .input_textarea:focus, .select:focus, submit:focus{
+	color: $color-white;
+}
+
+.titulo-det {
+	background-color: $color-primary;
+}
+
+.side2 { 
+	border: 1px solid $black;
+}
+
+.box-side h3 {
+	box-shadow: 0 5px 5px -6px $black;
+    border-bottom: 1px solid $color-primary;
+}
+
+textarea[readonly], textarea[readonly]:focus {
+	border: 1px solid $black;
+}
