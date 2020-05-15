@@ -95,14 +95,21 @@ html, body {
 /* Link */
 
 a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
-	color: $color-comment;
+	color: $color-white;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-	color: $color-white;
+	color: $cyan;
 	text-decoration: none;
 }
+
+ul.ui-autocomplete {
+    background-color: $color-comment;
+    border: 1px solid $black;
+}
+
 
 div[class^="useful-info"] {
 	background-color: $color-comment;

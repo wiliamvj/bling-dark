@@ -35,10 +35,19 @@ table.grid-header td input, .grid td input {
 
 a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
 	color: $color-primary;
+	font-weight: bold;
 }
 
 .ui-autocomplete-custom-item {
 	color: $green;
+	font-weight: bold;
+}
+
+.ui-menu .ui-menu-item a {
+	font-weight: bold;
+}
+
+.ui-autocomplete-custom-item span {
 	font-weight: bold;
 }
 
