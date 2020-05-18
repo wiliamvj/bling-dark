@@ -286,7 +286,9 @@ table.grid-header td input[readOnly]:focus {
 	background-color: $color-comment !important;
 }
 
-
+.warn {
+	border: 2px solid $color-comment;
+}
 
 
 
