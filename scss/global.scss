@@ -290,8 +290,12 @@ table.grid-header td input[readOnly]:focus {
 	border: 2px solid $color-comment;
 }
 
-
-
+.warn-preco-abaixo {
+	background-color: $red;
+	color: $color-white;
+	font-weight: bold;
+	font-size: 14px;
+}
 
 
 
