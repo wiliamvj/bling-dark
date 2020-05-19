@@ -9,15 +9,7 @@ init SASS: sass --watch scss:css
 SASS minify: sass --watch scss:css --style compressed
 */
 
-@import "invoice-details";
-@import "invoices";
-@import "sales-order-details";
-@import "sales-order";
-@import "client-details";
-@import "clients";
-@import "products";
-@import "product-details";
-@import "variables";
+@import "imports-scss";
 
 /* Home */
 
@@ -292,7 +284,7 @@ table.grid-header td input[readOnly]:focus {
 }
 
 .warn h4,ul li {
-	color: $color-white !important;
+	color: $color-white;
 }
 
 .warn-preco-abaixo {
@@ -302,7 +294,9 @@ table.grid-header td input[readOnly]:focus {
 	font-size: 14px;
 }
 
-
+.alert-box-ok h4 {
+	color: $orange;
+}
 
 
 
