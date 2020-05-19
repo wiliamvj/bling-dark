@@ -17,8 +17,10 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
     - 🚀 Detalhes dos Clientes
 - 🚀 Produtos
     - 🚀 Detalhes dos Produtos (Listagem)
-- ❌ Vendedores
-- ❌ Relatórios
+- 🚀 Vendedores (Listagem)
+    - 🚀 Detalhes dos Vendedores (Listagem)
+- 🚀 Relatórios (Listagem)
+    - ❌ Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
 - ❌ Controles de Estoques
