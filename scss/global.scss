@@ -287,7 +287,12 @@ table.grid-header td input[readOnly]:focus {
 }
 
 .warn {
-	border: 2px solid $color-comment;
+	background-color: $color-comment;
+	border: 2px solid $color-secudary;
+}
+
+.warn h4,ul li {
+	color: $color-white !important;
 }
 
 .warn-preco-abaixo {
