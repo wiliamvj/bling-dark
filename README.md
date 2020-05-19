@@ -30,8 +30,9 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 
 ### Vendas
 - ❌ Frente de Caixa
-- ❌ GNRE
-- ❌ Integração Logística
+- 🚀 GNRE (Listagem)
+    - 🚀 Detalhes da GNRE
+- 🚀 Integração Logística (Listagem)
 - ❌ NFC-e
 - ❌ Propostas Comerciais
 - 🚀 Pedidos de Venda (Listagem)
