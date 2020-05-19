@@ -23,7 +23,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
     - ❌ Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
-- ❌ Controles de Estoques
+- 🚀 Controles de Estoques
 - ❌ Pedidos de Compra
 - ❌ Notas de Entrada
 - ❌ Relatórios

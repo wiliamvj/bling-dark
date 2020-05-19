@@ -1,0 +1,20 @@
+@import "variables";
+
+/* stock */
+
+#nome-produto {
+	color: $color-white !important;
+}
+
+.new-side-bar .info-text {
+	color: $orange;
+}
+
+#tabela-saldo-deposito th, td {
+	color: $color-white;
+}
+
+#tabela-saldo-deposito td {
+	color: $cyan;
+	font-weight: bold;
+}
