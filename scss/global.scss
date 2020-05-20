@@ -299,6 +299,10 @@ table.grid-header td input[readOnly]:focus {
 	color: $orange;
 }
 
+.ui-datepicker-calendar a:hover {
+	background-color: $color-secudary;
+	color: $color-white;
+}
 
 
 
