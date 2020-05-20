@@ -304,6 +304,18 @@ table.grid-header td input[readOnly]:focus {
 	color: $color-white;
 }
 
+.border-challenge-completed {
+    outline: 2px solid $color-comment;
+    border: 3px solid $color-secudary;
+}
+
+.challenge-completed h3 {
+    color: $orange;
+}
+
+#tasks-list, #challenge-completed-message, #challenge-bottom {
+    background-color: $color-comment !important;
+}
 
 
 
