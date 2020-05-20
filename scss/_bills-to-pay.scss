@@ -1,0 +1,12 @@
+@import "variables";
+
+/* bills to pay */
+
+.attach-file-area .listaAnexosBox .qq-upload-success, .attach-file-area .attachs-box .qq-upload-success {
+	background-color: $green;
+	border-radius: 4px
+}
+
+.attach-file-area .listaAnexosBox .qq-upload-success:hover, .attach-file-area .attachs-box .qq-upload-success:hover {
+	background-color: $green-hover;
+}
