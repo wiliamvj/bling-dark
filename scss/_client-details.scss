@@ -1,132 +1,163 @@
 @import "variables";
 
 .box-side {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
-.chosen-container-multi .chosen-choices li.search-field input[type=text] {
-	color: $color-white;
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  color: $color-white;
 }
 
 .chosen-container-multi .chosen-choices {
-	background: $color-secudary;
-	border: 1px solid $black;
-	font-weight: bold
+  background: $color-secudary;
+  border: 1px solid $black;
+  font-weight: bold;
 }
 
 .linha_form .chosen-results li:hover {
-	background-color: $color-secudary;
-	color: $color-white;
+  background-color: $color-secudary;
+  color: $color-white;
 }
 
-.chosen-container-active .chosen-choices li.search-field input[type=text] {
-	color: $color-white !important;
-}
-
-.chosen-container-multi .chosen-choices li.search-choice {
-	margin: 5px 5px 3px 5px;
+.chosen-container-active .chosen-choices li.search-field input[type="text"] {
+  color: $color-white !important;
 }
 
 .chosen-container-multi .chosen-choices li.search-choice {
-    border: 1px solid $black;
-    border-radius: 3px;
-    background-color: $yellow !important;
-    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(20%,#f4f4f4),color-stop(50%,#f0f0f0),color-stop(52%,$yellow),color-stop(100%,#eee));
-    background-image: -webkit-linear-gradient($yellow 20%,$yellow 50%,$yellow 52%,$yellow 100%);
-    background-image: -moz-linear-gradient($yellow 20%,$yellow 50%,$yellow 52%,$yellow 100%);
-    background-image: -o-linear-gradient($yellow 20%,$yellow 50%,$yellow 52%,$yellow 100%);
-    color: $color-primary;
+  margin: 5px 5px 3px 5px;
 }
 
-[class^="icon-"], [class*=" icon-"] {
-	color: $color-primary;
+.chosen-container-multi .chosen-choices li.search-choice {
+  border: 1px solid $black;
+  border-radius: 3px;
+  background-color: $yellow !important;
+  background-image: -webkit-gradient(
+    linear,
+    50% 0,
+    50% 100%,
+    color-stop(20%, #f4f4f4),
+    color-stop(50%, #f0f0f0),
+    color-stop(52%, $yellow),
+    color-stop(100%, #eee)
+  );
+  background-image: -webkit-linear-gradient(
+    $yellow 20%,
+    $yellow 50%,
+    $yellow 52%,
+    $yellow 100%
+  );
+  background-image: -moz-linear-gradient(
+    $yellow 20%,
+    $yellow 50%,
+    $yellow 52%,
+    $yellow 100%
+  );
+  background-image: -o-linear-gradient(
+    $yellow 20%,
+    $yellow 50%,
+    $yellow 52%,
+    $yellow 100%
+  );
+  color: $color-primary;
 }
 
-[class^="icon-"]:hover, [class*=" icon-"]:hover {
-	color: $black;
+[class^="icon-"],
+[class*=" icon-"] {
+  color: $color-primary;
+}
+
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+  color: $black;
 }
 
 .table-fixed-heading {
-	border-bottom: 2px solid $black;
+  border-bottom: 2px solid $black;
 }
 
 .fixed-header .table-heading div {
-	background: $color-secudary;
-	color: $color-white;
+  background: $color-secudary;
+  color: $color-white;
 }
 
 div.table .table-body .table-row {
-	border-bottom: none;
+  border-bottom: none;
 }
 
 .fixed-header {
-	border: 1px solid $black;
+  border: 1px solid $black;
 }
 
-.alert-mini-box p, .alert-mini-box span, .alert-mini-box {
-	color: $color-white;
+.alert-mini-box p,
+.alert-mini-box span,
+.alert-mini-box {
+  color: $color-white;
 }
 
 .saldo-ficha-financeira div:nth-child(1) p {
-	color: $color-white;
+  color: $color-white;
 }
 
 .tree-select {
-	background-color: $color-secudary;
-	border: 1px solid $black;
+  background-color: $color-secudary;
+  border: 1px solid $black;
 }
 
 .ui-dialog.slideIn .ui-dialog-content {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
-.ui-dialog.slideIn .ui-dialog-buttonpane, .ui-dialog.slideIn .ui-dialog-titlebar {
-	background-color: $color-comment;
+.ui-dialog.slideIn .ui-dialog-buttonpane,
+.ui-dialog.slideIn .ui-dialog-titlebar {
+  background-color: $color-comment;
 }
 
 .ui-dialog.slideIn .ui-dialog-title {
-	color: $color-white;
+  color: $color-white;
 }
 
-.item-form, .group-item-form .chosen-choices {
-	background-color: $color-secudary;
-	border: 1px solid $black;
+.item-form,
+.group-item-form .chosen-choices {
+  background-color: $color-secudary;
+  border: 1px solid $black;
 }
 
 .ui-dialog.slideIn h3.title-form {
-	color: $color-white;
+  color: $color-white;
 }
 
 .ui-dialog.slideIn .field-group {
-	border-bottom: 1px solid $black;
+  border-bottom: 1px solid $black;
 }
 
 .ui-dialog.slideIn .ui-dialog-titlebar-close span {
-	color:$color-white;
+  color: $color-white;
 }
 
-.tree-select .tree-select-selection span, .linha_form_texto {
-	color: $color-white;
-	font-weight: bold;
+.tree-select .tree-select-selection span,
+.linha_form_texto {
+  color: $color-white;
+  font-weight: bold;
 }
 
 .box-side ul li a {
-	color: $color-white;
+  color: $color-white;
 }
 
-.box-side ul li a:hover, .box-side ul li a:focus {
-    background-color: $color-secudary;
-    color: $color-white;
+.box-side ul li a:hover,
+.box-side ul li a:focus {
+  background-color: $color-secudary;
+  color: $color-white;
 }
 
 .button-search-base {
-	border: 1px solid black;
+  border: 1px solid black;
 }
 
 .fa-search {
-	color: $color-white;
+  color: $color-white;
 }
 
 .button-search-base:hover {
-	background: $color-secudary;
+  background: $color-secudary;
 }

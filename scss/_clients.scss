@@ -1,35 +1,45 @@
 @import "variables";
 
-#search-left-area input.form-control, #search-left-area select.form-control, .form-control {
-	background-color: $color-primary;
+#search-left-area input.form-control,
+#search-left-area select.form-control,
+.form-control {
+  background-color: $color-primary;
 }
 
-.tabela-listagem .dropdown-menu>li.divider {
-    border-bottom: 1px solid $color-primary;
-	font-weight: bold;
+.tabela-listagem .dropdown-menu > li.divider {
+  border-bottom: 1px solid $color-primary;
+  font-weight: bold;
 }
 
-.tabela-listagem .dropdown-menu>li a {
-	font-weight: bold;
+.tabela-listagem .dropdown-menu > li a {
+  font-weight: bold;
 }
 
-.boxy-wrapper .left, .boxy-wrapper .right, .boxy-wrapper .top, .boxy-wrapper .bottom, .boxy-wrapper .top-left, .boxy-wrapper .top-right, .boxy-wrapper .bottom-left, .boxy-wrapper .bottom-right {
-	background-color: $color-primary;
+.boxy-wrapper .left,
+.boxy-wrapper .right,
+.boxy-wrapper .top,
+.boxy-wrapper .bottom,
+.boxy-wrapper .top-left,
+.boxy-wrapper .top-right,
+.boxy-wrapper .bottom-left,
+.boxy-wrapper .bottom-right {
+  background-color: $color-primary;
 }
 
-.boxy-wrapper .title-bar h2, .caption {
-	color: $color-white;
+.boxy-wrapper .title-bar h2,
+.caption {
+  color: $color-white;
 }
 
 .boxy-inner {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
 td input {
-	background-color: $color-primary;
-	border: 1px solid $black;
+  background-color: $color-primary;
+  border: 1px solid $black;
 }
 
 fieldset {
-	border: 1px solid $black;
+  border: 1px solid $black;
 }

@@ -3,419 +3,462 @@
 /* products init */
 
 #container {
-	background: $color-primary !important;
+  background: $color-primary !important;
 }
 
-.breadcrumb, #header-list {
-	background: $color-primary;
-	color: $color-white;
+.breadcrumb,
+#header-list {
+  background: $color-primary;
+  color: $color-white;
 }
 
 .breadcrumb li:last-child {
-	color: $color-white;
+  color: $color-white;
 }
 
 #container.filter-left .search-bar {
-	background: $color-primary;
+  background: $color-primary;
 }
 
-#datatable table thead tr th, [id^="addDatatable"] table thead tr th {
-	background: $color-primary;
-	color: $color-white;
-	font-weight: bold;
+#datatable table thead tr th,
+[id^="addDatatable"] table thead tr th {
+  background: $color-primary;
+  color: $color-white;
+  font-weight: bold;
 }
 
 #main-container {
-	background: $color-primary !important;
+  background: $color-primary !important;
 }
 
-.tabela-listagem>tbody>tr {
-	background:$color-secudary;
-	border-bottom: 3px solid $color-primary;
-	transition: 0.2s;
+.tabela-listagem > tbody > tr {
+  background: $color-secudary;
+  border-bottom: 3px solid $color-primary;
+  transition: 0.2s;
 }
 
 .tabela-listagem tr:not(.remove-hover):hover {
-	background: $color-comment;
+  background: $color-comment;
 }
 
-#datatable td, [id^="addDatatable"] td, .painel-parametros .datatable td {
-	color: $color-white;
-	font-weight: bold;
+#datatable td,
+[id^="addDatatable"] td,
+.painel-parametros .datatable td {
+  color: $color-white;
+  font-weight: bold;
 }
 
 .btn-invisible {
-	color: $color-primary;
+  color: $color-primary;
 }
 
 .new-search-action {
-    background-color: $green;
-    border-color: $black !important;
-    color: $color-white;
-	transition: 0.2s;
+  background-color: $green;
+  border-color: $black !important;
+  color: $color-white;
+  transition: 0.2s;
 }
 
-.new-search-action:hover{
-	background-color: $green-hover;
+.new-search-action:hover {
+  background-color: $green-hover;
 }
 
 #search-input input {
-	border-color: $black;
-	background-color: $color-secudary;
-	color: $color-white;
-	font-weight: bold;
+  border-color: $black;
+  background-color: $color-secudary;
+  color: $color-white;
+  font-weight: bold;
 }
 #search-input input:focus {
-	color: $color-comment;
-	font-weight: bold;
+  color: $color-comment;
+  font-weight: bold;
 }
 
 input#pesquisa-mini.pesquisa.search-input-action.ui-autocomplete-input:focus {
-	background-color: red;
+  background-color: red;
 }
 
 .clear-input {
-	color: $yellow;
+  color: $yellow;
 }
 
 .clear-input:hover {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
 #search-input input:focus {
-	border-color: $color-secudary;
-	background-color: $color-comment !important;
-	color: $color-white;
+  border-color: $color-secudary;
+  background-color: $color-comment !important;
+  color: $color-white;
 }
 
 .badge-light {
-	background-color: $orange;
-	border: 1px solid #b5620a;
-	color: $color-primary;
-	font-weight: bold;
+  background-color: $orange;
+  border: 1px solid #b5620a;
+  color: $color-primary;
+  font-weight: bold;
 }
 
 #search-tag .clear-tag {
-	color: $red;
+  color: $red;
 }
 
 #search-tag .clear-tag:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
-a.clr, span.link.clear-all {
-	color: $color-white;
+a.clr,
+span.link.clear-all {
+  color: $color-white;
 }
 
 .tabela-listagem tr.selected {
-	background-color: $red !important;
+  background-color: $red !important;
 }
 
-.input-checkbox input[type="checkbox"]:checked + label {	
-	background-color: $green;
-	border: 1px solid #06591b;
+.input-checkbox input[type="checkbox"]:checked + label {
+  background-color: $green;
+  border: 1px solid #06591b;
 }
 
 .input-checkbox input[type="checkbox"]:checked + label:after {
-	color: $color-primary;
+  color: $color-primary;
 }
 
-.new-side-bar-help, .dropdown-menu {
-	box-shadow: 0px 3px 6px $color-primary;
+.new-side-bar-help,
+.dropdown-menu {
+  box-shadow: 0px 3px 6px $color-primary;
 }
 
 .dropdown-menu {
-	background: $color-secudary;
-	color: $color-white !important;
+  background: $color-secudary;
+  color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu>li>a {
-	color: $color-white !important;
+.tabela-listagem .dropdown-menu > li > a {
+  color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu>li>a:hover, .dropdown-menu>li>a:hover i, .dropdown-action-btn:hover {
-	background-color: $color-primary !important;
+.tabela-listagem .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:hover i,
+.dropdown-action-btn:hover {
+  background-color: $color-primary !important;
 }
 
-.common-action-container button, .navbar-action-container button {
-    background-color: $color-secudary;
-	border-color: $color-secudary;
+.common-action-container button,
+.navbar-action-container button {
+  background-color: $color-secudary;
+  border-color: $color-secudary;
 }
 
-.common-action-container button:hover, .navbar-action-container button:hover {
-    background-color: $color-comment;
-	border-color: $color-secudary;
+.common-action-container button:hover,
+.navbar-action-container button:hover {
+  background-color: $color-comment;
+  border-color: $color-secudary;
 }
 
 #sacola_compras[data-qty="0"] {
-	color: $green;
+  color: $green;
 }
 
 .common-action-container .fa-print {
-	color: $cyan;
+  color: $cyan;
 }
 
 .act-excluir {
-    background-color: $red !important;
-	border-color: $red !important;
+  background-color: $red !important;
+  border-color: $red !important;
 }
 
 .act-excluir:hover {
-    background-color: #bb2424 !important;
+  background-color: #bb2424 !important;
 }
 
-.common-action-container .fa-trash-alt  {
-	color: $color-white !important;
+.common-action-container .fa-trash-alt {
+  color: $color-white !important;
 }
 
 /* menu right */
-.new-box-side-minimized .new-main-div, .new-box-side {
-	background: $color-secudary;
+.new-box-side-minimized .new-main-div,
+.new-box-side {
+  background: $color-secudary;
 }
 
 .new-main-div {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
 .new-side-bar .main-actions div.border-bottom {
-	border: 1px solid $color-primary;
+  border: 1px solid $color-primary;
 }
 
-.bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .new-box-side-minimized button:not(.button-default-novo):hover, .new-side-bar .main-actions button .action-text, .bootstrap-select > .dropdown-toggle.bs-placeholder, .new-side-bar select, .new-side-bar option, .new-box-side-minimized .dropdown-item.dropdown-action-btn {
-	color: $green;
-	transition: 0.2s;
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.new-box-side-minimized button:not(.button-default-novo):hover,
+.new-side-bar .main-actions button .action-text,
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.new-side-bar select,
+.new-side-bar option,
+.new-box-side-minimized .dropdown-item.dropdown-action-btn {
+  color: $green;
+  transition: 0.2s;
 }
 
-.new-side-bar .main-actions button:not(.block) span.far, .new-side-bar .main-actions button:not(.block) span.fas {
-	color:#f1fa8c;
-	transition: 0.2s;
+.new-side-bar .main-actions button:not(.block) span.far,
+.new-side-bar .main-actions button:not(.block) span.fas {
+  color: #f1fa8c;
+  transition: 0.2s;
 }
 
-div.more-actions:not(.open):hover, .new-box-side:not(.new-box-side-minimized) .new-side-bar .main-actions button:not(.block):hover, .new-box-side:not(.new-box-side-minimized) .new-side-bar li.action-item:not(.block):hover {
-	background-color: $color-secudary;
-	opacity: 0.6;
+div.more-actions:not(.open):hover,
+.new-box-side:not(.new-box-side-minimized)
+  .new-side-bar
+  .main-actions
+  button:not(.block):hover,
+.new-box-side:not(.new-box-side-minimized)
+  .new-side-bar
+  li.action-item:not(.block):hover {
+  background-color: $color-secudary;
+  opacity: 0.6;
 }
 
 .new-box-side-minimized {
-	border: 1px solid $color-primary;
+  border: 1px solid $color-primary;
 }
 
-.default-actions button:hover, .new-side-bar-minimize:hover, .new-box-side-minimized .new-side-bar-minimize:hover, .new-box-side-minimized button:not(.button-default-novo):hover, .new-box-side-minimized .new-side-bar-help span:hover {
-	background-color: $color-primary;
+.default-actions button:hover,
+.new-side-bar-minimize:hover,
+.new-box-side-minimized .new-side-bar-minimize:hover,
+.new-box-side-minimized button:not(.button-default-novo):hover,
+.new-box-side-minimized .new-side-bar-help span:hover {
+  background-color: $color-primary;
 }
 
-.fa-chevron-left, .fa-chevron-right {
-	color: $color-white;
+.fa-chevron-left,
+.fa-chevron-right {
+  color: $color-white;
 }
 
 .new-side-bar .more-actions span:first-of-type {
-	color: $color-white;
+  color: $color-white;
 }
 
 .new-side-bar .more-actions span:nth-child(2) {
-	color: $orange;
+  color: $orange;
 }
 
 .action-list .action-group {
-	color: $color-white;
+  color: $color-white;
 }
 .action-list .action-item {
-	color: $grey;
+  color: $grey;
 }
 
 .new-side-bar .info-text {
-	color: $color-white;
+  color: $color-white;
 }
 
 .info-label {
-	color: $grey;
+  color: $grey;
 }
 
-.new-side-bar-help .fa-server.green, .new-side-bar .info-value, .popover-sidebar .info-value {
-	color: $green;
-	font-weight: bold;
+.new-side-bar-help .fa-server.green,
+.new-side-bar .info-value,
+.popover-sidebar .info-value {
+  color: $green;
+  font-weight: bold;
 }
 
 /* menu left */
 .open-filter {
-	background: $green 0% 0% no-repeat padding-box;
-	box-shadow: 0px 3px 6px $color-secudary;
-	border-radius: 5px 10px 10px 0px;
+  background: $green 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px $color-secudary;
+  border-radius: 5px 10px 10px 0px;
 }
 .open-filter .fa-filter {
-	color: $color-secudary;
+  color: $color-secudary;
 }
 
-#modal-filter .ui-dialog-titlebar, #modal-filter .ui-dialog-titlebar-close, #modal-filter .ui-dialog-content, #modal-filter .ui-dialog-content .ui-dialog-buttonpane, #search-left-area.open, #search-left-area #filter-button-area, #search-left-area .over-shadow, #search-left-area div#title-filter {
-	background: $color-secudary;
+#modal-filter .ui-dialog-titlebar,
+#modal-filter .ui-dialog-titlebar-close,
+#modal-filter .ui-dialog-content,
+#modal-filter .ui-dialog-content .ui-dialog-buttonpane,
+#search-left-area.open,
+#search-left-area #filter-button-area,
+#search-left-area .over-shadow,
+#search-left-area div#title-filter {
+  background: $color-secudary;
 }
 
 #search-left-area #title-filter h1 {
-	color: $color-white;
+  color: $color-white;
 }
 
 #search-left-area #title-filter .fa-chevron-left {
-	color: $color-white;
+  color: $color-white;
 }
 
 #search-left-area #title-filter span.fa-filter {
-	color: $orange;
+  color: $orange;
 }
 
 #content-filter label {
-	color: $color-white;
-	font-weight: bold
+  color: $color-white;
+  font-weight: bold;
 }
 
-#search-left-area .form-group:not(.filtro-dinamico-area) > select, #search-left-area .form-group:not(.filtro-dinamico-area) > .tree-select {
-    background-image: linear-gradient(45deg, transparent 48%, $color-secudary 50%), linear-gradient(135deg, $color-secudary 48%, transparent 50%);
+#search-left-area .form-group:not(.filtro-dinamico-area) > select,
+#search-left-area .form-group:not(.filtro-dinamico-area) > .tree-select {
+  background-image: linear-gradient(45deg, transparent 48%, $color-secudary 50%),
+    linear-gradient(135deg, $color-secudary 48%, transparent 50%);
 }
 
-.item-form, .group-item-form .chosen-choices {
-	background-color: $color-primary;
-	color: $color-white;
+.item-form,
+.group-item-form .chosen-choices {
+  background-color: $color-primary;
+  color: $color-white;
 }
 
-#content-filter input, #content-filter select, #content-filter .tree-select {
-	color: $color-white;
-	border: 1px solid $black;
+#content-filter input,
+#content-filter select,
+#content-filter .tree-select {
+  color: $color-white;
+  border: 1px solid $black;
 }
 
-.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
-	border: 1px solid $color-secudary;
+.item-form:focus,
+.tree-select:focus,
+.group-item-form .chosen-container-active .chosen-choices {
+  border: 1px solid $color-secudary;
 }
 
-.tree-select-container li:hover, .tree-select-container .selected {
-	background-color: $color-primary;
+.tree-select-container li:hover,
+.tree-select-container .selected {
+  background-color: $color-primary;
 }
 
-a.clr, span.link.clear-all:hover {
-	color: $color-white;
-	opacity: 0.7;
-	text-decoration: none;
+a.clr,
+span.link.clear-all:hover {
+  color: $color-white;
+  opacity: 0.7;
+  text-decoration: none;
 }
 
 /* pagination */
-.pagination li:first-of-type span.border-right:not(.is-infinity):first-of-type, .pagination li:nth-of-type(4) span.border-right:not(.is-infinity):first-of-type {
-	border-right: 1px solid $color-primary;
+.pagination li:first-of-type span.border-right:not(.is-infinity):first-of-type,
+.pagination
+  li:nth-of-type(4)
+  span.border-right:not(.is-infinity):first-of-type {
+  border-right: 1px solid $color-primary;
 }
 
-.pagination>li>a, .pagination>li>span, .pagination>li>a:hover, .pagination>li>span:hover {
-	color: $color-primary;
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+  color: $color-primary;
 }
 
 #content-filter .input-group-addon {
-    color: $color-white;
+  color: $color-white;
 }
 
 .ui-dialog-new .ui-button-text {
-	color: $color-white
+  color: $color-white;
 }
 
 .box-retorno-integracao {
-	border: none !important;
-	color: $color-white;
-	font-size: 14px;
-	font-weight: bold;
+  border: none !important;
+  color: $color-white;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.ui-dialog{
-	background-image: none;
+.ui-dialog {
+  background-image: none;
 }
 
 .ui-widget-content {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-	background-color: $color-comment;
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+  background-color: $color-comment;
 }
 
 .ui-widget-header .ui-icon:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
-#tags-area, .ui-dialog-new .ui-dialog-content, .ui-dialog .ui-dialog-content {
-	color: $color-white;
+#tags-area,
+.ui-dialog-new .ui-dialog-content,
+.ui-dialog .ui-dialog-content {
+  color: $color-white;
 }
 
-.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
-	background-color: $color-secudary;
-	color: $color-white;
-    border: 1px solid $black;
-	font-weight: bold;
-	padding: 5px;
-	font-family: "Roboto",sans-serif;
+.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget button {
+  background-color: $color-secudary;
+  color: $color-white;
+  border: 1px solid $black;
+  font-weight: bold;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
-#relatorio tr th, #datatable tr th, .datatable tr th {
-	background-color: $color-primary !important;
-	color: $color-white;
-	border-bottom: none;
+#relatorio tr th,
+#datatable tr th,
+.datatable tr th {
+  background-color: $color-primary !important;
+  color: $color-white;
+  border-bottom: none;
 }
 
-#relatorio tr, #datatable tr th, .datatable tr {
-	background-color: $color-primary !important;
-	color: $color-white;
-	border-bottom: none;
+#relatorio tr,
+#datatable tr th,
+.datatable tr {
+  background-color: $color-primary !important;
+  color: $color-white;
+  border-bottom: none;
 }
 
-#relatorio tr td, #datatable tr td, .datatable tr td {
-	border: none;
+#relatorio tr td,
+#datatable tr td,
+.datatable tr td {
+  border: none;
 }
 
-.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
-	color: $color-primary;
+.item-form:focus,
+.tree-select:focus,
+.group-item-form .chosen-container-active .chosen-choices {
+  color: $color-primary;
 }
 
 #reajuste_precos {
-	background-color: $green;
-	color:$color-primary;
+  background-color: $green;
+  color: $color-primary;
 }
 
-#reajuste_precos a, #reajuste_precos .close-reajuste {
-	color:$color-primary;
+#reajuste_precos a,
+#reajuste_precos .close-reajuste {
+  color: $color-primary;
 }
 
 #toggle_reajuste {
-	background-color: $color-secudary;
+  background-color: $color-secudary;
 }
 
 legend {
-	color: $color-white;
+  color: $color-white;
 }
 
 .conversao-unidade button {
-    background-color: $green;
-    border: 1px solid $green-hover;
-    color: $color-primary;
+  background-color: $green;
+  border: 1px solid $green-hover;
+  color: $color-primary;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* products end */

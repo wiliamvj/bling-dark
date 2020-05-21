@@ -2,23 +2,27 @@
 
 /* invoice details */
 
-.input_text:focus, .input_textarea:focus, .select:focus, submit:focus{
-	color: $color-white;
+.input_text:focus,
+.input_textarea:focus,
+.select:focus,
+submit:focus {
+  color: $color-white;
 }
 
 .titulo-det {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
-.side2 { 
-	border: 1px solid $black;
+.side2 {
+  border: 1px solid $black;
 }
 
 .box-side h3 {
-	box-shadow: 0 5px 5px -6px $black;
-    border-bottom: 1px solid $color-primary;
+  box-shadow: 0 5px 5px -6px $black;
+  border-bottom: 1px solid $color-primary;
 }
 
-textarea[readonly], textarea[readonly]:focus {
-	border: 1px solid $black;
+textarea[readonly],
+textarea[readonly]:focus {
+  border: 1px solid $black;
 }

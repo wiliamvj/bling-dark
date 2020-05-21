@@ -3,149 +3,193 @@
 /* sales order details */
 
 table.grid-header td input[readOnly] {
-	background-color: $color-secudary !important;
+  background-color: $color-secudary !important;
 }
 
 table.grid-header td {
-	background-color: $color-secudary !important;
+  background-color: $color-secudary !important;
 }
 
-[class^=icon-], [class*=" icon-"] {
-	color: $color-white;
+[class^="icon-"],
+[class*=" icon-"] {
+  color: $color-white;
 }
 
 table.grid-header td {
-	border: 1px solid $color-comment;
+  border: 1px solid $color-comment;
 }
 
-table.grid-header td input, .grid td input {
-	border: none;
+table.grid-header td input,
+.grid td input {
+  border: none;
 }
 
 .fa-eye {
-	color: $yellow;
+  color: $yellow;
 }
 .fa-eye:hover {
-	opacity: 0.8 !important;
+  opacity: 0.8 !important;
 }
 
-[class^=icon-]:hover, [class*=" icon-"]:hover {
-	color: $green;
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+  color: $green;
 }
 
-a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
-	color: $color-primary;
-	font-weight: bold;
+a,
+.link,
+.link-action,
+.ui-widget-content a,
+.ui-widget-content a.link,
+#datatable table a,
+.datatable table a {
+  color: $color-primary;
+  font-weight: bold;
 }
 
 .ui-autocomplete-custom-item {
-	color: $green;
-	font-weight: bold;
+  color: $green;
+  font-weight: bold;
 }
 
 .ui-menu .ui-menu-item a {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .ui-autocomplete-custom-item span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .ui-autocomplete-custom a:hover {
-	background-color: $color-secudary;
+  background-color: $color-secudary;
 }
 
-a.link-action:hover, a.link-action:focus, .link-action:hover, .link-action:focus {
-	text-decoration: none !important;
+a.link-action:hover,
+a.link-action:focus,
+.link-action:hover,
+.link-action:focus {
+  text-decoration: none !important;
 }
 
-a.link-action, .link-action {
-	font-style: normal;
-	font-size: 1.1rem;
-	margin-top: 5px;
-	font-weight: bold;
-	transition: 0.2s;
+a.link-action,
+.link-action {
+  font-style: normal;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
-.readonly, .fields input[readOnly], .readonlyRight, input[readOnly], textarea[readonly], textarea[disabled], select[disabled], select[readonly], .readonly:focus, .fields input[readOnly]:focus, .readonlyRight:focus, input[readOnly]:focus, textarea[readonly]:focus, textarea[disabled]:focus, select[disabled]:focus, select[readonly]:focus, .tree-select[readonly] {
-	background-color: $color-secudary;
+.readonly,
+.fields input[readOnly],
+.readonlyRight,
+input[readOnly],
+textarea[readonly],
+textarea[disabled],
+select[disabled],
+select[readonly],
+.readonly:focus,
+.fields input[readOnly]:focus,
+.readonlyRight:focus,
+input[readOnly]:focus,
+textarea[readonly]:focus,
+textarea[disabled]:focus,
+select[disabled]:focus,
+select[readonly]:focus,
+.tree-select[readonly] {
+  background-color: $color-secudary;
 }
 
-.info, #info {
-	color: $pink;
-	font-weight: bold;
+.info,
+#info {
+  color: $pink;
+  font-weight: bold;
 }
 
-.button, .button[readOnly], .ui-dialog-buttonset button.button {
-    border-radius: 4px;;
-    font-family: 'Roboto', sans;
+.button,
+.button[readOnly],
+.ui-dialog-buttonset button.button {
+  border-radius: 4px;
+  font-family: "Roboto", sans;
 }
 
-input.no-border, input.no-border:focus, select.no-border, select.no-border:focus {
-	background-color: $color-secudary;
-	border: 1px solid $color-comment;
+input.no-border,
+input.no-border:focus,
+select.no-border,
+select.no-border:focus {
+  background-color: $color-secudary;
+  border: 1px solid $color-comment;
 }
 
-input:focus, select:focus, textarea:focus {
-	color: $color-white;
+input:focus,
+select:focus,
+textarea:focus {
+  color: $color-white;
 }
 
 #listagem_historico_cliente_produto span {
-	color: $color-white !important;
-	font-family: 'Roboto', sans;
+  color: $color-white !important;
+  font-family: "Roboto", sans;
 }
 
 .ui-dialog-new table tbody {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
 #listagem_historico_cliente_produto h2 {
-	font-size: 15px;
-	margin-bottom: 15px;
-	color: $color-white;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: $color-white;
 }
 
-#tags-area, .ui-dialog-new .ui-dialog-content p {
-	color: $color-white;
+#tags-area,
+.ui-dialog-new .ui-dialog-content p {
+  color: $color-white;
 }
 
-.grid th, .grid td {
-	border: 1px solid $color-comment;
-	color: $color-white;
+.grid th,
+.grid td {
+  border: 1px solid $color-comment;
+  color: $color-white;
 }
 
-[class^=icon-], [class*=" icon-"] {
-	color: $color-white;
+[class^="icon-"],
+[class*=" icon-"] {
+  color: $color-white;
 }
 
-[class^=icon-]:hover, [class*=" icon-"]:hover {
-	color: $green;
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+  color: $green;
 }
 
 div.toogle-checkbox input:checked + span {
-	background-color: $green;
+  background-color: $green;
 }
 
 div.toogle-checkbox span:after {
-	color: $pink;
-	font-weight: bold;
+  color: $pink;
+  font-weight: bold;
 }
 
 div.toogle-checkbox span {
-	background-color: $red;
+  background-color: $red;
 }
 
 .message-area .alert-box-info {
-    border: 1px solid $color-primary;
-   margin-top: 5px;
+  border: 1px solid $color-primary;
+  margin-top: 5px;
 }
 
-.alert-box-info, .alert-mini-box-info {
-	background-color: $color-primary !important;
+.alert-box-info,
+.alert-mini-box-info {
+  background-color: $color-primary !important;
 }
 
-.alert-box p, .alert-box span, .alert-box .alert-box-title {
-	color: $color-white;
-	font-weight: bold;
-	font-size: 2rem
+.alert-box p,
+.alert-box span,
+.alert-box .alert-box-title {
+  color: $color-white;
+  font-weight: bold;
+  font-size: 2rem;
 }

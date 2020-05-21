@@ -2,50 +2,50 @@
 
 /* reports */
 
-
-.search-bar { 
-	background: $color-primary;
+.search-bar {
+  background: $color-primary;
 }
 
 .search-bar .titulo {
-	color: $yellow !important;
-	border-bottom: none;
+  color: $yellow !important;
+  border-bottom: none;
 }
 
 .menu-relatorio h3 {
-	background-color: $color-primary;
-    padding: 5px 5px 5px 10px;
-    color: $color-white;
-    border: none
+  background-color: $color-primary;
+  padding: 5px 5px 5px 10px;
+  color: $color-white;
+  border: none;
 }
 
 .menu-relatorio .descricao-relatorio {
-	color: $color-white;
+  color: $color-white;
 }
 
 .menu-relatorio li {
-	color: $yellow;    
-	border-bottom: 1px solid $color-secudary;
-	transition: 0.2s;
+  color: $yellow;
+  border-bottom: 1px solid $color-secudary;
+  transition: 0.2s;
 }
 
 .menu-relatorio li:hover {
-	background-color: $color-secudary !important;
+  background-color: $color-secudary !important;
 }
 
 .titulo-sidebar {
-	color: $color-white !important;
-	border-bottom: 1px solid $color-secudary;
+  color: $color-white !important;
+  border-bottom: 1px solid $color-secudary;
 }
 
 .bubble-info {
-    box-shadow: 0 1px 3px rgba(255, 255, 255, .3);
-	background-color: $color-comment;
-    border: 1px solid $color-secudary;
-    color: $orange;
-    position: relative;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+  background-color: $color-comment;
+  border: 1px solid $color-secudary;
+  color: $orange;
+  position: relative;
 }
 
-.bubble-info:before, .bubble-info:after {
-    border-bottom-color: $color-comment;
+.bubble-info:before,
+.bubble-info:after {
+  border-bottom-color: $color-comment;
 }

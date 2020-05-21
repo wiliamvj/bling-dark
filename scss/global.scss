@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 /* ==UserStyle==
 @name        Bling Dark
@@ -14,330 +14,336 @@ SASS minify: sass --watch scss:css --style compressed
 
 /* Home */
 
-
-html, body {
-	font-family: 'Roboto', sans-serif !important;
-	background: $color-primary !important;
+html,
+body {
+  font-family: "Roboto", sans-serif !important;
+  background: $color-primary !important;
 }
 
-.box-content, #container .box-content{
-    background: $color-primary;
+.box-content,
+#container .box-content {
+  background: $color-primary;
 }
 
-.home-stat, .blog-posts span {
-	color: $green;
+.home-stat,
+.blog-posts span {
+  color: $green;
 }
 
 .card h2 {
-    color: $color-white;
-	border-bottom: 1px solid $color-secudary;
+  color: $color-white;
+  border-bottom: 1px solid $color-secudary;
 }
 
-.blog-posts, .home-stats, .home-espaco {
-	border: 1px solid $color-secudary;
-	border-radius: 5px;
+.blog-posts,
+.home-stats,
+.home-espaco {
+  border: 1px solid $color-secudary;
+  border-radius: 5px;
 }
 
 .home-stat h3 {
-	color: $cyan;
-	border-top: 1px solid $color-secudary;
+  color: $cyan;
+  border-top: 1px solid $color-secudary;
 }
 
 .card-espaco-header {
-	background-color: $color-secudary;
-	border-radius: 5px;
+  background-color: $color-secudary;
+  border-radius: 5px;
 }
 
 .card-espaco-header .header-text-container {
-	color: $color-white;
-	margin-bottom: 5px;
+  color: $color-white;
+  margin-bottom: 5px;
 }
 
 /* BTN primary */
 
 .button-default-novo {
-	background-color: $green;
-	border: 1px solid $green-hover;
-	color: $color-secudary;
-	font-weight: bold;
-	transition: 0.2s;
+  background-color: $green;
+  border: 1px solid $green-hover;
+  color: $color-secudary;
+  font-weight: bold;
+  transition: 0.2s;
 }
 
 .button-default-novo:hover {
-	background-color: $green-hover-background;
-	border: 1px solid $green-hover;
-	color: $color-secudary;
+  background-color: $green-hover-background;
+  border: 1px solid $green-hover;
+  color: $color-secudary;
 }
-
 
 /* BTN Seundary */
 
 .btn-secundary-novo {
-	background-color: $color-secudary;
-	border: 1px solid $color-comment;
-	color: $color-white;
-	transition: 0.2s;
+  background-color: $color-secudary;
+  border: 1px solid $color-comment;
+  color: $color-white;
+  transition: 0.2s;
 }
 
 .btn-secundary-novo:hover {
-	background-color: $color-comment;
-	border: 1px solid $color-comment;
-	color: $color-white;
+  background-color: $color-comment;
+  border: 1px solid $color-comment;
+  color: $color-white;
 }
 
 /* Link */
 
-a, .link, .link-action, .ui-widget-content a, .ui-widget-content a.link, #datatable table a, .datatable table a {
-	color: $color-white;
-	text-decoration: none;
-	font-weight: bold;
+a,
+.link,
+.link-action,
+.ui-widget-content a,
+.ui-widget-content a.link,
+#datatable table a,
+.datatable table a {
+  color: $color-white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-	color: $cyan;
-	text-decoration: none;
+  color: $cyan;
+  text-decoration: none;
 }
 
 ul.ui-autocomplete {
-    background-color: $color-comment;
-    border: 1px solid $black;
+  background-color: $color-comment;
+  border: 1px solid $black;
 }
 
-
 div[class^="useful-info"] {
-	background-color: $color-comment;
-	color: $color-white;
-	border-radius: 5px;
+  background-color: $color-comment;
+  color: $color-white;
+  border-radius: 5px;
 }
 
 div[class^="useful-info"]:before {
-	color: $yellow;
+  color: $yellow;
 }
 
 /* menu left*/
 
 .quick-access {
-	background: $color-secudary;
+  background: $color-secudary;
 }
 
-.quick-access h2, .menu-dados-empresa h2 {
-	color: $green;
-	border-bottom: 1px solid $color-primary;
+.quick-access h2,
+.menu-dados-empresa h2 {
+  color: $green;
+  border-bottom: 1px solid $color-primary;
 }
 
-.quick-access h3, .menu-dados-empresa h3 {
-	color: $yellow;
+.quick-access h3,
+.menu-dados-empresa h3 {
+  color: $yellow;
 }
 
-.quick-access li a, .menu-dados-empresa li a {
-	color: $color-white;
+.quick-access li a,
+.menu-dados-empresa li a {
+  color: $color-white;
 }
 
-.quick-access li a:hover, .menu-dados-empresa li a:hover {
-	color: $grey;
+.quick-access li a:hover,
+.menu-dados-empresa li a:hover {
+  color: $grey;
 }
 
 /* menu top */
 
 #top-menu {
-	background: $color-secudary;
-	box-shadow: 1px 0.5px 8px $color-primary;
+  background: $color-secudary;
+  box-shadow: 1px 0.5px 8px $color-primary;
 }
 
 #menu-novo li a {
-	color: $color-white;
+  color: $color-white;
 }
 
-#menu_novo li ul, #menu-novo li ul, #menu-acoes li.menu ul {
-	background: $color-comment;
-	border: none !important;
-	box-shadow: 0px 3px 6px $color-primary;
+#menu_novo li ul,
+#menu-novo li ul,
+#menu-acoes li.menu ul {
+  background: $color-comment;
+  border: none !important;
+  box-shadow: 0px 3px 6px $color-primary;
 }
 
-#menu_novo li ul li a, #menu-novo li ul li a, #menu-acoes li ul li a{
-	color: $color-white !important;
-	font-weight: bold
+#menu_novo li ul li a,
+#menu-novo li ul li a,
+#menu-acoes li ul li a {
+  color: $color-white !important;
+  font-weight: bold;
 }
 
-#menu_novo li ul li:hover, #menu_novo li ul li a:hover, #menu-novo li ul li:hover, #menu-novo li ul li a:hover, #menu-acoes li ul li a:hover {
-    background-color: $color-secudary;
+#menu_novo li ul li:hover,
+#menu_novo li ul li a:hover,
+#menu-novo li ul li:hover,
+#menu-novo li ul li a:hover,
+#menu-acoes li ul li a:hover {
+  background-color: $color-secudary;
 }
 
 #menu-acoes i {
-	color: $color-comment;
+  color: $color-comment;
 }
-
 
 /* footer */
 #footer-container {
-	background-color:  $color-secudary;
-	box-shadow: 1px 0.5px 8px $color-primary;
+  background-color: $color-secudary;
+  box-shadow: 1px 0.5px 8px $color-primary;
 }
 
 /* chat */
 
 .u-userLauncherColor:not([disabled]) {
-	background-color: $green !important;
+  background-color: $green !important;
 }
 
 /* menu account*/
 
 .popover {
-	background-color: $color-comment;
-	border-radius: 5px;
+  background-color: $color-comment;
+  border-radius: 5px;
 }
 
 .popover-conta .popover-title {
-	background-color: $color-secudary;
+  background-color: $color-secudary;
 }
 
-.popover.bottom>.arrow:after {
-	border-bottom-color: $color-secudary;
+.popover.bottom > .arrow:after {
+  border-bottom-color: $color-secudary;
 }
 
-.popover-conta .popover-title, .popover-conta h3, .popover-conta p {
-	color: $color-white;
-	font-weight: bold;
+.popover-conta .popover-title,
+.popover-conta h3,
+.popover-conta p {
+  color: $color-white;
+  font-weight: bold;
 }
 
 .popover-title {
-	border-bottom: 1px solid $black;
+  border-bottom: 1px solid $black;
 }
 
 .myAccountBtn {
-	border-radius: 4px;
-	background-color: $orange;
-	color: $color-primary;
-	transition: 0.2s
+  border-radius: 4px;
+  background-color: $orange;
+  color: $color-primary;
+  transition: 0.2s;
 }
 
-.myAccountBtn:hover {	
-	opacity: 0.8;
+.myAccountBtn:hover {
+  opacity: 0.8;
 }
 
 .popover-conta a {
-	color: $color-primary;
+  color: $color-primary;
 }
 
 .popover-conta a:hover {
-	color: $color-primary;
+  color: $color-primary;
 }
 
 input:focus {
-	background-color: $color-comment !important;
-	border: 1px solid $black !important;
-	color: $color-white !important;
+  background-color: $color-comment !important;
+  border: 1px solid $black !important;
+  color: $color-white !important;
 }
 
 .dynamic-search .dropdown-menu .dropdown-item {
-	color: $color-white !important;
+  color: $color-white !important;
 }
 
 .dynamic-search .dropdown-menu .dropdown-item:hover {
-	background-color: $color-primary;
+  background-color: $color-primary;
 }
 
-#search-left-area input.form-control:focus, #search-left-area select.form-control:focus, .form-control:focus {
-	background-color: $color-comment !important;
-	border: 1px solid $black !important;
-	color: $color-white !important;
+#search-left-area input.form-control:focus,
+#search-left-area select.form-control:focus,
+.form-control:focus {
+  background-color: $color-comment !important;
+  border: 1px solid $black !important;
+  color: $color-white !important;
 }
 
-.input_text:focus, .input_textarea:focus, .select:focus, submit:focus {
-	color: $color-white;
-	background-color: $color-comment;
-	border: 1px solid $black !important;
+.input_text:focus,
+.input_textarea:focus,
+.select:focus,
+submit:focus {
+  color: $color-white;
+  background-color: $color-comment;
+  border: 1px solid $black !important;
 }
 
 select.item-form * {
-	background-color: $color-secudary !important;
-	border: 1px solid $black !important;
-	color: $color-white !important;
-	margin-bottom: 3px !important;
+  background-color: $color-secudary !important;
+  border: 1px solid $black !important;
+  color: $color-white !important;
+  margin-bottom: 3px !important;
 }
 
 .tree-select-container > ul {
-	background-color: $color-secudary !important;
-	border: 1px solid $black !important;
+  background-color: $color-secudary !important;
+  border: 1px solid $black !important;
 }
 
 .tree-select-container > ul li label {
-	color: $color-white !important;
+  color: $color-white !important;
 }
 
 .tree-select-container {
-	background-color: $color-secudary !important;
-	border: none;
+  background-color: $color-secudary !important;
+  border: none;
 }
 
-.item-form:focus, .tree-select:focus, .group-item-form .chosen-container-active .chosen-choices {
-	background-color: $color-comment !important;
-	border: 1px solid $black !important;
+.item-form:focus,
+.tree-select:focus,
+.group-item-form .chosen-container-active .chosen-choices {
+  background-color: $color-comment !important;
+  border: 1px solid $black !important;
 }
 
 table.grid-header td input[readOnly]:focus {
-	background-color: $color-comment !important;
+  background-color: $color-comment !important;
 }
 
 .warn {
-	background-color: $color-comment;
-	border: 2px solid $color-secudary;
+  background-color: $color-comment;
+  border: 2px solid $color-secudary;
 }
 
-.warn h4,ul li {
-	color: $color-white;
+.warn h4,
+ul li {
+  color: $color-white;
 }
 
 .warn-preco-abaixo {
-	background-color: $red;
-	color: $color-white;
-	font-weight: bold;
-	font-size: 14px;
+  background-color: $red;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .alert-box-ok h4 {
-	color: $orange;
+  color: $orange;
 }
 
 .ui-datepicker-calendar a:hover {
-	background-color: $color-secudary;
-	color: $color-white;
+  background-color: $color-secudary;
+  color: $color-white;
 }
 
 .border-challenge-completed {
-    outline: 2px solid $color-comment;
-    border: 3px solid $color-secudary;
+  outline: 2px solid $color-comment;
+  border: 3px solid $color-secudary;
 }
 
 .challenge-completed h3 {
-    color: $orange;
+  color: $orange;
 }
 
-#tasks-list, #challenge-completed-message, #challenge-bottom {
-    background-color: $color-comment !important;
+#tasks-list,
+#challenge-completed-message,
+#challenge-bottom {
+  background-color: $color-comment !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
