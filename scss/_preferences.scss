@@ -1,0 +1,118 @@
+@import "variables";
+
+/* preferences */
+
+.breadcrumb-title {
+  color: $orange;
+}
+
+.breadcrumb {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.box-preferencias,
+.box-pesquisa-topico {
+  background-color: $color-primary;
+}
+
+.box-preferencias h3,
+.box-pesquisa-topico h3 {
+  color: $color-white !important;
+}
+
+.box-preferencias #pesquisa-mini-preferencias,
+.box-pesquisa-topico .input-pesquisa {
+  border: 1px solid $black;
+}
+
+.box-preferencias #mini-pesquisa-preferencias .btn-secundary,
+.box-pesquisa-topico .btn-secundary {
+  background-color: $green;
+  border: 1px solid $black;
+}
+
+.box-preferencias #mini-pesquisa-preferencias .btn-secundary:hover,
+.box-pesquisa-topico .btn-secundary:hover {
+  background-color: $green-hover;
+}
+
+.menu-preferencias {
+  border: 1px solid $color-secudary;
+}
+
+.menu-preferencias .menu-item {
+  border-top: 1px solid $color-secudary;
+}
+
+.menu-preferencias .menu-item span {
+  color: $color-white;
+}
+.menu-preferencias-secundario .menu-secundario-item span {
+  color: $color-white;
+}
+
+.menu-preferencias-secundario .menu-preferencias-secundario-titulo h3,
+.menu-preferencias-secundario .configuracoes-adicionais-titulo h3 {
+  color: $orange;
+}
+
+.menu-preferencias-secundario .menu-secundario-item {
+  border: none !important;
+}
+
+.menu-preferencias .menu-item:hover,
+.menu-preferencias-secundario .menu-secundario-item a:hover {
+  background-color: $color-secudary;
+}
+
+.navigation-path .paths a,
+.navigation-path .paths span {
+  color: $yellow;
+}
+
+.background-container {
+  background-color: $color-primary;
+}
+
+.page-block {
+  background-color: $color-primary;
+  border: none;
+}
+
+#left-bar li a {
+  color: $color-white;
+  border-bottom: 1px solid $color-secudary;
+}
+
+#left-bar li:hover {
+  background-color: $color-secudary;
+}
+
+li [class^="icon-"],
+li [class*=" icon-"],
+.nav li [class^="icon-"],
+.nav li [class*=" icon-"] {
+  color: $color-white;
+}
+
+[class^="icon-"]:hover,
+[class*=" icon-"]:hover {
+  color: $yellow;
+}
+
+#left-bar h3 {
+  color: $green;
+  border-bottom: none;
+}
+
+#updateLogo {
+  background-color: $color-comment;
+  color: $color-white;
+  border: 1px solid $black;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+#updateLogo:hover {
+  opacity: 0.7;
+}
