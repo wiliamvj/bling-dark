@@ -277,7 +277,11 @@ div.table-head {
 }
 
 #tinymce p {
-  color: $color-white !important;
+  color: $color-white;
+}
+
+#tinymce span {
+  color: $color-white;
 }
 
 .input_text:focus,
