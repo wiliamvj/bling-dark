@@ -347,3 +347,21 @@ ul li {
 #challenge-bottom {
   background-color: $color-comment !important;
 }
+
+textarea,
+select,
+input {
+  background-color: $color-secudary;
+  color: #f8f8f2;
+  font-weight: bold;
+  border: 1px solid $black;
+  padding: 5px;
+}
+
+.box-content #datatable th,
+.datatable th,
+#listaEtiquetas th,
+.painel-parametros .datatable th {
+  border-bottom: 1px solid $color-secudary;
+  color: $orange;
+}
