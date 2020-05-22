@@ -12,3 +12,11 @@
 .attach-file-area .attachs-box .qq-upload-success:hover {
   background-color: $green-hover;
 }
+
+.alert-box-warning {
+  background-color: $color-secudary !important;
+}
+
+.message-area .alert-box-warning {
+  border: 1px solid $color-comment;
+}
