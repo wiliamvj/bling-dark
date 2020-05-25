@@ -49,3 +49,46 @@
 .bubble-info:after {
   border-bottom-color: $color-comment;
 }
+
+#relatorio-customizado-config #dinamic-filter {
+  background-color: $color-secudary !important;
+  border: 1px solid $black;
+}
+
+.relatorio-dados-container .fixed-table-container {
+  border: 1px solid $color-comment;
+}
+
+#relatorioDados th div {
+  color: $orange;
+}
+
+#relatorioDados th div:hover {
+  background-color: $color-secudary;
+  border-bottom: 1px solid $orange;
+}
+
+#listaMenu {
+  background-color: $color-secudary !important;
+}
+
+.context-menu-default li:hover:not(.context-menu-separator) {
+  color: $color-white !important;
+  background-color: $color-comment !important;
+}
+
+.context-menu-default li {
+  color: $color-white !important;
+}
+
+.context-menu-default {
+  outline: 1px solid $color-comment;
+}
+
+.fixed-table-foooter {
+  border: none;
+}
+
+.fixed-table-foooter tr:first-child {
+  border-bottom: 1px solid $color-comment;
+}
