@@ -1,0 +1,28 @@
+@import "variables";
+
+/* commissions */
+
+.remove-hover:hover {
+	background-color: $color-comment;
+}
+
+.input-daterange input {
+	background-color: $color-primary !important;
+}
+
+#datatable h3 {
+	padding: 10px;
+	color: $orange !important;
+}
+
+#datatable tr th {
+	border: 1px solid $color-comment;
+	padding: 10px;
+	color: $orange !important;
+}
+
+#datatable tr  {
+	border: 1px solid $color-comment;
+	padding: 10px;
+}
+
