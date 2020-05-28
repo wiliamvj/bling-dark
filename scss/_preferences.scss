@@ -158,3 +158,82 @@ li [class*=" icon-"],
 .store-square:hover {
   border: 1px solid $orange;
 }
+
+.configuracoes-integracoes .row {
+  background-color: $color-secudary;
+  border-bottom: 1px solid $black;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+  color: $orange;
+}
+
+.row .parametros-integracao .row {
+  background-color: $color-comment;
+}
+
+.parametros-integracao {
+  border: none;
+}
+
+.parameter-integration label {
+  color: $color-white;
+}
+
+.manual-lojas > div {
+  background-color: $color-secudary !important;
+  border: 1px solid $black !important;
+}
+.manual-lojas > div > h3 {
+  color: $orange;
+}
+
+#ajuda > h3 {
+  color: $color-white !important;
+}
+
+.breadcrumb a {
+  color: $color-white !important;
+}
+
+.lds-sync div {
+  background: $yellow;
+}
+
+#tabelaAliasesPagamentoUtilizados td {
+  font-weight: bold;
+}
+
+div.tagsinput {
+  background-color: $color-secudary;
+}
+
+div.tagsinput div input {
+  color: $color-white !important;
+  opacity: 0.6;
+}
+
+.tabela-listagem tr th {
+  background-color: $color-primary;
+  color: $orange;
+}
+
+div.tagsinput span.tag,
+.not_valid {
+  background-color: $orange;
+  border: 1px solid #b5620a;
+  background-image: linear-gradient(
+    $orange 20%,
+    $orange 50%,
+    $orange 52%,
+    $orange 100%
+  );
+  background-clip: padding-box;
+  box-shadow: 0 0 2px #b5620a inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.item-form,
+.group-item-form .chosen-choices {
+  background-color: $color-secudary;
+}
