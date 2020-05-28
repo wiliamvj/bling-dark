@@ -116,3 +116,45 @@ li [class*=" icon-"],
 #updateLogo:hover {
   opacity: 0.7;
 }
+
+.container-stores thead {
+  background-color: $color-comment;
+}
+
+.box-section .section-content {
+  border: 1px solid $color-secudary;
+}
+
+.block-inner .box-section h2.section-title,
+.store-group-title {
+  color: $color-white;
+}
+
+.table-list > tbody > tr {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.section-content table {
+  border: 1px solid $color-secudary;
+}
+
+.table-list > tbody > tr:hover {
+  background-color: $color-secudary;
+}
+
+.store-square {
+  border: 1px solid $black;
+  background-color: $color-white;
+}
+
+.store-square i {
+  color: $color-comment;
+}
+
+.store-square i:hover {
+  color: $orange;
+}
+
+.store-square:hover {
+  border: 1px solid $orange;
+}

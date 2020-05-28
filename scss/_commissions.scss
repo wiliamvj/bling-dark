@@ -15,17 +15,6 @@
   color: $orange !important;
 }
 
-#datatable tr th {
-  border: 1px solid $color-comment;
-  padding: 10px;
-  color: $orange !important;
-}
-
-#datatable tr {
-  border: 1px solid $color-comment;
-  padding: 10px;
-}
-
 #datatable tr:hover {
   background-color: $color-comment;
 }
