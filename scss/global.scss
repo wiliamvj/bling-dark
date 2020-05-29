@@ -365,3 +365,18 @@ input {
   border-bottom: 1px solid $color-secudary;
   color: $orange;
 }
+
+.btn-secundary-novo:hover,
+.btn-secundary-novo:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:focus:active,
+.btn-primary:active:hover,
+.btn-primary.selected,
+.open > .dropdown-toggle.btn-primary,
+.open > .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:focus {
+  background-color: $color-comment;
+  color: $color-white;
+}
