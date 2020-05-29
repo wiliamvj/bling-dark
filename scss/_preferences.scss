@@ -237,3 +237,54 @@ div.tagsinput span.tag,
 .group-item-form .chosen-choices {
   background-color: $color-secudary;
 }
+
+.preferencias .info-lateral h3,
+.preferencias .painel-parametros .row h2 {
+  color: $orange;
+}
+
+.preferencias .row .painel-parametros {
+  border: none;
+}
+
+.tipo-certificado {
+  background-color: $yellow;
+  border: none;
+  border-radius: 4px;
+  color: $color-primary;
+  transition: 0.2s;
+}
+
+.tipo-certificado:hover {
+  background-color: $yellow;
+  opacity: 0.8;
+}
+
+#status-certificado {
+  margin: 15px 0px;
+  padding: 30px 15px;
+  background-color: #6272a444 !important;
+}
+
+.mensagem-orientacao {
+  background-color: #44475aaa;
+}
+
+.mensagem-orientacao h2 {
+  color: $color-white !important;
+}
+
+.container-status-message {
+  border: 1px solid $color-secudary;
+  border-radius: 4px;
+}
+
+.container-status-message .status-message-title {
+  color: $color-white;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  color: $color-white;
+}
