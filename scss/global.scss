@@ -430,3 +430,23 @@ input {
   border-radius: 20px;
   font-weight: bold;
 }
+
+.readonly,
+.fields input[readOnly],
+.readonlyRight,
+input[readOnly],
+textarea[readonly],
+textarea[disabled],
+select[disabled],
+select[readonly],
+.readonly:focus,
+.fields input[readOnly]:focus,
+.readonlyRight:focus,
+input[readOnly]:focus,
+textarea[readonly]:focus,
+textarea[disabled]:focus,
+select[disabled]:focus,
+select[readonly]:focus,
+.tree-select[readonly] {
+  color: $color-white;
+}
