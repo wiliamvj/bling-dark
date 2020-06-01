@@ -380,3 +380,34 @@ input {
   background-color: $color-comment;
   color: $color-white;
 }
+
+#n_list_unread .notification-box-content,
+#notification-history-title,
+.notification-title-box-content {
+  background-color: $color-comment;
+  border-bottom: 1px solid $black;
+  color: $color-primary;
+}
+
+.arrow-up-behind,
+.arrow-up-front {
+  border-bottom: 10px solid $color-comment;
+}
+
+#notificationMenu .fa-cog {
+  color: $color-primary;
+}
+
+#notificationMenu {
+  background-color: #44475a;
+  color: $color-comment;
+  border: 1px solid $black !important;
+}
+
+#n_list_history .notification-group-title {
+  color: $orange;
+}
+
+#notificationMenu li:hover {
+  background-color: $color-comment;
+}
