@@ -411,3 +411,22 @@ input {
 #notificationMenu li:hover {
   background-color: $color-comment;
 }
+
+.notification-group-title {
+  color: $orange;
+}
+
+.notification-date {
+  color: $color-white;
+}
+
+#notificationMenu span[data-group-sum] {
+  color: $green;
+  font-weight: bold !important;
+}
+
+#bell_content span {
+  background-color: $red;
+  border-radius: 20px;
+  font-weight: bold;
+}
