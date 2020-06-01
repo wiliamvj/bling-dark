@@ -19,3 +19,7 @@ td {
   color: $cyan;
   font-weight: bold;
 }
+
+#tabela_estoque_reservado .table-body {
+  background-color: $color-comment;
+}
