@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 /* ==UserStyle==
 @name        Bling Dark
@@ -16,7 +16,7 @@ SASS minify: sass --watch scss:css --style compressed
 
 html,
 body {
-  font-family: "Roboto", sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
   background: $color-primary !important;
 }
 
