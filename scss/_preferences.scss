@@ -326,3 +326,42 @@ div[class^="useful-info"] h3 {
 .section-content .dashed-table {
   border-color: $color-comment;
 }
+
+span.gerenciar-espaco {
+  color: $color-white;
+}
+
+span.titulo-secao {
+  color: $orange;
+}
+
+span.dados-subtitle {
+  color: $color-white;
+}
+
+.dados-plano span.dados-content {
+  color: $green;
+}
+
+.border-right {
+  border-right: 1px solid $color-secudary;
+}
+
+.border-bottom {
+  border-bottom: 1px solid $color-secudary;
+}
+
+#data-usage-info,
+#file-usage-text,
+.dados-content span {
+  color: $green !important;
+}
+
+.dados-armazenamento .progress-bar-success {
+  background-color: $green;
+}
+
+.section-content #datatable table,
+.section-content .datatable table {
+  border: none;
+}
