@@ -194,7 +194,7 @@ li [class*=" icon-"],
 }
 
 .breadcrumb {
-  border-bottom: 1px solid $color-secudary;
+  border-bottom: none;
 }
 
 .lds-sync div {
@@ -364,4 +364,12 @@ span.dados-subtitle {
 .section-content #datatable table,
 .section-content .datatable table {
   border: none;
+}
+
+.box-funcionalidades {
+  border: 1px solid $color-secudary;
+}
+
+.btn-normal-user {
+  background-color: $red !important;
 }
