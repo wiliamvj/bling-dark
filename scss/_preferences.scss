@@ -387,3 +387,67 @@ span.dados-subtitle {
     border-left: 1px solid $color-secudary;
   }
 }
+
+#cadastros-produto h4 {
+  color: $color-white !important;
+}
+
+.vendas-parametros h4 {
+  color: $color-white !important;
+}
+
+.vendas-propostas-comerciais h4 {
+  color: $color-white !important;
+}
+
+.preferencias .painel-parametros .row h4 {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.sub-title {
+  color: $orange;
+}
+
+.header-title {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.top-search #panel-area,
+.top-search #panel.relatorio,
+.top-search .panel-area,
+.top-search #add-lcto {
+  background-color: $color-secudary;
+  border-radius: 4px;
+}
+
+.top-search #panel .label,
+#form_aniversariantes_impressao #panel .label {
+  color: $color-white;
+  border-bottom: 1px solid $color-secudary;
+}
+
+.top-search-scroll {
+  background: $color-secudary;
+  border-bottom: 2px solid $orange;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: $color-primary;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: $color-primary;
+}
+
+.top-search #panel .item-sit,
+.top-search #panel .item-tag,
+.top-search #panel .item,
+.top-search #panel .item-cat,
+.top-search #panel .item-tipo,
+#form_aniversariantes_impressao .item2 {
+  color: $color-white;
+}

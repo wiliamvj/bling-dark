@@ -20,13 +20,13 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 Vendedores (Listagem)
     - 🚀 Detalhes dos Vendedores (Listagem)
 - 🚀 Relatórios (Listagem)
-    - ❌ Detalhes dos Relatórios (Listagem)
+    - 🚀 Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
 - 🚀 Controles de Estoques
-- ❌ Pedidos de Compra
-- ❌ Notas de Entrada
-- ❌ Relatórios
+- 🚀 Pedidos de Compra
+- 🚀 Notas de Entrada
+- 🚀 Relatórios
 
 ### Vendas
 - ❌ Frente de Caixa
