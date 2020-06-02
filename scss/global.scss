@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 /* ==UserStyle==
 @name        Bling Dark
@@ -16,7 +16,7 @@ SASS minify: sass --watch scss:css --style compressed
 
 html,
 body {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   background: $color-primary !important;
 }
 
@@ -352,7 +352,7 @@ textarea,
 select,
 input {
   background-color: $color-secudary;
-  color: #f8f8f2;
+  color: $color-white;
   font-weight: bold;
   border: 1px solid $black;
   padding: 5px;
@@ -399,7 +399,7 @@ input {
 }
 
 #notificationMenu {
-  background-color: #44475a;
+  background-color: $color-secudary;
   color: $color-comment;
   border: 1px solid $black !important;
 }
@@ -449,4 +449,36 @@ select[disabled]:focus,
 select[readonly]:focus,
 .tree-select[readonly] {
   color: $color-white;
+}
+
+.preferencias .resultados h2 {
+  color: $orange;
+  border-bottom: 1px solid $color-secudary;
+}
+
+.tabela-listagem tr.categoria {
+  background-color: $color-secudary;
+}
+
+#div_config_etiqueta h4 {
+  color: $orange;
+  -webkit-box-shadow: 0 5px 5px -6px $color-secudary;
+}
+
+#fieldsBox {
+  background-color: $color-secudary;
+}
+
+#etiquetaForm #fieldsBox > li {
+  color: $color-white;
+}
+
+.draggable {
+  background-color: $color-secudary;
+  outline: 1px solid $black;
+  color: $color-white;
+}
+
+#pagePreview {
+  border: 1px solid $color-secudary !important;
 }
