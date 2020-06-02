@@ -462,7 +462,7 @@ select[readonly]:focus,
 
 #div_config_etiqueta h4 {
   color: $orange;
-  -webkit-box-shadow: 0 5px 5px -6px $color-secudary;
+  box-shadow: 0 5px 5px -6px $color-secudary;
 }
 
 #fieldsBox {

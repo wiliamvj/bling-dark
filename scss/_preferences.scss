@@ -373,3 +373,17 @@ span.dados-subtitle {
 .btn-normal-user {
   background-color: $red !important;
 }
+
+#integracao_automatica h3 {
+  color: $orange !important;
+}
+
+.integracao-area {
+  border: 1px solid $color-secudary;
+}
+
+@media screen and (min-width: 1200px) {
+  .lg-border-left {
+    border-left: 1px solid $color-secudary;
+  }
+}
