@@ -451,3 +451,62 @@ textarea:focus {
 #form_aniversariantes_impressao .item2 {
   color: $color-white;
 }
+
+#formExcluirRegistros .subtitulo-secao {
+  color: $color-white;
+}
+
+.card-title {
+  color: $yellow;
+}
+
+.card-exclusao {
+  border: 1px solid $color-secudary;
+}
+
+.card-exclusao .input-checkbox {
+  border-right: 1px solid $color-secudary;
+}
+
+.card-space {
+  color: $red;
+}
+
+.warnings-separator {
+  border: 1px dotted $color-secudary;
+}
+
+.card-warnings span:not(.fa-exclamation-triangle) {
+  color: $grey;
+}
+
+.alert-box-info,
+.alert-mini-box-info {
+  background-color: $color-secudary !important;
+  border-radius: 4px;
+}
+
+.date-filter input {
+  border: 1px solid $black;
+  color: $color-white;
+}
+
+label.label-item {
+  color: $grey;
+}
+
+.form-item div > span {
+  color: $orange;
+}
+
+.lista-espacos thead td {
+  background-color: $color-secudary;
+}
+
+.lista-espacos td {
+  border-bottom: 1px solid $color-secudary;
+}
+
+#certificado-digital-configuracoes .row {
+  border: none !important;
+}
