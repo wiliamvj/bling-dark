@@ -82,3 +82,7 @@ p {
   background: $color-comment;
   border: 4px solid $color-secudary;
 }
+
+#liEnviarContainer > div {
+	border: 1px solid $color-secudary !important;
+}
