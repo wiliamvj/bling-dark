@@ -1,0 +1,56 @@
+@import "variables";
+
+/* support */
+
+.box-central-ajuda {
+  background-color: $color-comment;
+}
+
+.box-central-ajuda .box-title {
+  color: $color-white;
+  border-bottom: 1px solid $color-secudary;
+}
+
+#datatable-area > div {
+  color: $color-white;
+}
+
+.box-content #datatable tr:nth-child(even).highlight,
+.box-content [id^="addDatatable"] tr:nth-child(even).highlight {
+  background: $color-comment;
+}
+
+.descricaoTicket {
+  border: 1px solid $color-secudary;
+}
+
+#listaAnexosTicket > div {
+  border-bottom: 1px solid $color-secudary !important;
+}
+
+.tituloDadoTicket {
+  background: $color-secudary;
+  color: $color-white;
+}
+
+.linhaFollowup {
+  background-color: $color-secudary !important;
+  border-bottom: 2px solid $color-primary !important;
+}
+
+.followup-content {
+  color: $orange;
+}
+
+.ui-tabs .ui-widget-header {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.ui-tabs .ui-state-active a {
+  border: 1px solid $color-secudary;
+  border-bottom: 0;
+}
+
+.dadosUsuarioTickets div {
+  color: $orange;
+}
