@@ -33,8 +33,8 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 GNRE (Listagem)
     - 🚀 Detalhes da GNRE
 - 🚀 Integração Logística (Listagem)
-- ❌ NFC-e
-- ❌ Propostas Comerciais
+- 🚀 NFC-e
+- 🚀 Propostas Comerciais
 - 🚀 Pedidos de Venda (Listagem)
     - 🚀 Detalhes dos Pedidos 
 - 🚀 Notas Fiscais (Listagem)

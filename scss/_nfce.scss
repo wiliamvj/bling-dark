@@ -1,0 +1,40 @@
+@import "variables";
+
+.titulo {
+  color: $orange;
+}
+
+#formNfce #listaProdutos {
+  background-color: $color-secudary;
+}
+
+#formNfce #buscaProdutos {
+  background-color: $color-secudary;
+}
+
+#formNfce #listaProdutos .footer {
+  font-size: 11px;
+}
+
+#formNfce #listaProdutos .footer {
+  background-color: $color-comment;
+  border-top: 2px solid $color-primary;
+}
+
+#formNfce #buscaProdutos .footer .card-button {
+  border-right: 2px solid $color-primary;
+}
+
+#formNfce #buscaProdutos .footer {
+  background-color: $color-comment;
+  border-top: 2px solid $color-primary;
+}
+
+#formNfce #buscaProdutos .footer .card-button:hover {
+  background-color: $color-secudary;
+}
+
+#formNfce #buscaProdutos #leitorContainer #msgLeitor {
+  background-color: $color-comment;
+  color: $color-white;
+}
