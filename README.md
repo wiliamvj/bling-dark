@@ -8,53 +8,46 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-#### Páginas já com cores do Dracula estão marcados com 🚀 ainda sem estilização marcados com ❌.
+#### Páginas já com cores do Dracula estão marcados com ✅ ainda sem estilização marcados com ❌.
 
-### 🚀 Home
+### 🆗 Home
 
 ### Cadastros
-<ul style="list-style: none">
-    <li>🚀 Clientes e Fornecedores (Listagem)</li>
-    <li>🚀 Detalhes dos Clientes</li>
-    <li>🚀 Clientes e Fornecedores (Listagem)</li>
-    <li>🚀 Clientes e Fornecedores (Listagem)</li>
-    <li>🚀 Clientes e Fornecedores (Listagem)</li>
-    <li>🚀 Clientes e Fornecedores (Listagem)</li>
-</ul>
-- 🚀 Clientes e Fornecedores (Listagem)
-    - 🚀 Detalhes dos Clientes
-- 🚀 Produtos
-    🚀 Detalhes dos Produtos (Listagem)
-- 🚀 Vendedores (Listagem)
-    - 🚀 Detalhes dos Vendedores (Listagem)
-- 🚀 Relatórios (Listagem)
-    - 🚀 Detalhes dos Relatórios (Listagem)
+
+- 🆗 Clientes e Fornecedores (Listagem)
+    - 🆗 Detalhes dos Clientes
+- 🆗 Produtos
+    🆗 Detalhes dos Produtos (Listagem)
+- 🆗 Vendedores (Listagem)
+    - 🆗 Detalhes dos Vendedores (Listagem)
+- 🆗 Relatórios (Listagem)
+    - 🆗 Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
-- 🚀 Controles de Estoques
-- 🚀 Pedidos de Compra
-- 🚀 Notas de Entrada
-- 🚀 Relatórios
+- 🆗 Controles de Estoques
+- 🆗 Pedidos de Compra
+- 🆗 Notas de Entrada
+- 🆗 Relatórios
 
 ### Vendas
-- 🚀 Frente de Caixa
-- 🚀 GNRE (Listagem)
-    - 🚀 Detalhes da GNRE
-- 🚀 Integração Logística (Listagem)
-- 🚀 NFC-e
-- 🚀 Propostas Comerciais
-- 🚀 Pedidos de Venda (Listagem)
-    - 🚀 Detalhes dos Pedidos 
-- 🚀 Notas Fiscais (Listagem)
-    - 🚀 Detalhes dos Pedidos 
-- 🚀 Comissões
+- 🆗 Frente de Caixa
+- 🆗 GNRE (Listagem)
+    - 🆗 Detalhes da GNRE
+- 🆗 Integração Logística (Listagem)
+- 🆗 NFC-e
+- 🆗 Propostas Comerciais
+- 🆗 Pedidos de Venda (Listagem)
+    - 🆗 Detalhes dos Pedidos 
+- 🆗 Notas Fiscais (Listagem)
+    - 🆗 Detalhes dos Pedidos 
+- 🆗 Comissões
 - ❌ Checkout de Pedidos de Venda
 - ❌ Pedidos de Venda Multilojas
 - ❌ Relatórios
 
 ### Finanças
 - ❌ Caixas e Bancos
-- 🚀 Contas a Pagar
+- 🆗 Contas a Pagar
 - ❌ Contas a Receber
 - ❌ Remessas e Retornos
 - ❌ Ficha Financeira
