@@ -510,3 +510,12 @@ label.label-item {
 #certificado-digital-configuracoes .row {
   border: none !important;
 }
+
+.row-list {
+  border: 0;
+}
+
+.busca-nao-encontrada span:not(.fas),
+.busca-nao-encontrada p {
+  color: $color-white;
+}
