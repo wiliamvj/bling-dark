@@ -13,14 +13,14 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 ### 🚀 Home
 
 ### Cadastros
-- 🚀 Clientes e Fornecedores (Listagem)
-    - 🚀 Detalhes dos Clientes
-- 🚀 Produtos
-    - 🚀 Detalhes dos Produtos (Listagem)
-- 🚀 Vendedores (Listagem)
-    - 🚀 Detalhes dos Vendedores (Listagem)
-- 🚀 Relatórios (Listagem)
-    - 🚀 Detalhes dos Relatórios (Listagem)
+🚀 Clientes e Fornecedores (Listagem)<br>
+🚀 Detalhes dos Clientes<br>
+🚀 Produtos<br>
+🚀 Detalhes dos Produtos (Listagem)<br>
+🚀 Vendedores (Listagem)<br>
+🚀 Detalhes dos Vendedores (Listagem)<br>
+🚀 Relatórios (Listagem)<br>
+🚀 Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
 - 🚀 Controles de Estoques
