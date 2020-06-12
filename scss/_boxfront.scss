@@ -1,0 +1,87 @@
+@import "variables";
+
+/* boxfront */
+
+.corpo-painel {
+  background-color: $color-primary;
+}
+
+#div_imagem_produto.no-image {
+  border: 0;
+  border: 2px solid $color-secudary;
+}
+
+#div_imagem_produto.no-image:before {
+  color: $color-secudary;
+}
+
+#busca_produto,
+#remover_produto {
+  border: 1px solid $black;
+}
+
+#insercao_produto {
+  background-color: $color-secudary;
+  box-shadow: none;
+}
+
+#produtos_favoritos {
+  background-color: $color-secudary;
+  border-top: 2px solid $color-primary;
+}
+
+.rodape-painel {
+  background-color: $color-secudary;
+}
+
+#toggle_favoritos {
+  background-color: $color-primary;
+}
+
+#inserir_produto {
+  background-color: $orange;
+}
+
+.cabecalho-painel {
+  background-color: $green;
+}
+
+#div_total_venda span {
+  color: $color-white !important;
+}
+
+#background_bem_vindo img {
+  opacity: 0.05;
+}
+
+.abas-navegacao .navbar-nav .nav-item a.selected {
+  background-color: $color-secudary;
+  color: $color-white;
+  box-shadow: none;
+}
+
+.abas-navegacao .navbar-nav .nav-item a {
+  background-color: $color-comment;
+}
+
+.abas-navegacao .navbar-nav .nav-item {
+  border-right: 2px solid $color-primary;
+  border-left: 2px solid $color-primary;
+}
+
+.abas-navegacao .navbar-nav {
+  box-shadow: none;
+}
+
+#main-container .box-content {
+  background-color: $color-secudary;
+}
+
+#detalhes_produto #nome_produto,
+.corpo-painel #body_produtos td {
+  color: $color-white;
+}
+
+#detalhes_produto #valor_lista {
+  color: $orange;
+}
