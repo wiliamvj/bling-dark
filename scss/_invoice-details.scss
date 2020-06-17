@@ -26,3 +26,19 @@ textarea[readonly],
 textarea[readonly]:focus {
   border: 1px solid $black;
 }
+
+.box-content .warn-nfe {
+  background: $red;
+  border-radius: 8px;
+  color: $yellow;
+}
+
+.box-content .warn-nfe h4 {
+  color: $yellow;
+}
+
+.warn h4,
+ul li {
+  padding: 5px;
+  font-weight: bold;
+}
