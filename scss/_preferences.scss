@@ -521,10 +521,33 @@ label.label-item {
 }
 
 .alert-box-error {
-	background-color: $red !important;
-	border-radius: 8px;
+  background-color: $red !important;
+  border-radius: 8px;
 }
 
 .alert-box-error:before {
-	color: $yellow;
+  color: $yellow;
+}
+
+.div-sub-menu-item h4 {
+  color: $orange;
+}
+
+.preferencias .painel-parametros .painel-navegacao-sub-menu {
+  background-color: $color-secudary;
+  box-shadow: none;
+}
+
+.preferencias .painel-navegacao-sub-menu span {
+  color: $color-white;
+}
+
+.icon-arrow-left:before,
+.icon-arrow-right:before {
+  color: $color-white;
+}
+
+.preferencias .painel-parametros .painel-salvamento {
+  background-color: $color-secudary;
+  border-top: 1px solid $color-primary;
 }
