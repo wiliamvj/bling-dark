@@ -519,3 +519,12 @@ label.label-item {
 .busca-nao-encontrada p {
   color: $color-white;
 }
+
+.alert-box-error {
+	background-color: $red;
+	border-radius: 8px;
+}
+
+.alert-box-error:before {
+	color: $yellow;
+}

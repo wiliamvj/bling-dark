@@ -482,3 +482,8 @@ select[readonly]:focus,
 #pagePreview {
   border: 1px solid $color-secudary !important;
 }
+
+div[class^="useful-info"] {
+  color: $color-white!important;
+  font-weight: 700;
+}
