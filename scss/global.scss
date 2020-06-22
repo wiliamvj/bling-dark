@@ -62,7 +62,7 @@ body {
 .button-default-novo {
   background-color: $green;
   border: 1px solid $green-hover;
-  color: $color-secudary;
+  color: $color-white;
   font-weight: bold;
   transition: 0.2s;
 }
@@ -70,7 +70,7 @@ body {
 .button-default-novo:hover {
   background-color: $green-hover-background;
   border: 1px solid $green-hover;
-  color: $color-secudary;
+  color: $color-white;
 }
 
 /* BTN Seundary */
@@ -486,4 +486,8 @@ select[readonly]:focus,
 div[class^="useful-info"] {
   color: $color-white!important;
   font-weight: 700;
+}
+
+h4 {
+  color: $color-white;
 }
