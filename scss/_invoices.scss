@@ -91,3 +91,11 @@ p {
   background: $color-primary;
   border: 1px solid $color-secudary;
 }
+
+.code {
+  border: 1px solid #ff9898;
+  background-color: $red;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 4px;
+}
