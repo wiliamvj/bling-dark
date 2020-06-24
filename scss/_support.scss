@@ -63,3 +63,30 @@
   font-size: 8pt;
   padding: 8px;
 }
+
+.row-eq-height,
+.ticket-type::before {
+  content: "";
+  background-color: $color-comment !important;
+  color: $red !important;
+}
+
+.alert-box-warning ul li {
+  color: $color-white !important;
+}
+
+.item-form:focus,
+.tree-select:focus,
+.group-item-form .chosen-container-active .chosen-choices {
+  color: $color-white;
+}
+
+.qq-upload-drop-area-dashed,
+.qq-upload-button-dashed {
+  background-color: $color-secudary;
+  border: 2px dashed $color-primary;
+}
+
+.qq-upload-button-dashed > a {
+  color: $yellow !important;
+}
