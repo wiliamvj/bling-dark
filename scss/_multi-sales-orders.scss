@@ -1,0 +1,11 @@
+@import "variables";
+
+h7 {
+  color: $color-white;
+}
+
+.action-list .block,
+.new-side-bar .main-actions button.block,
+.new-side-bar .main-actions button.block .action-text {
+  color: $yellow;
+}
