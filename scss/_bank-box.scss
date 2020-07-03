@@ -1,0 +1,25 @@
+@import "variables";
+
+.tab-control {
+  border-bottom: 1px solid $color-secudary;
+}
+
+.tab-control a {
+  color: $color-white;
+}
+
+.tabela-listagem .value-column-negative {
+  color: $red;
+}
+
+#right-sidebar-infos .info-label {
+  color: $orange;
+}
+
+#right-sidebar-infos .secundary-info-label {
+  color: $color-white;
+}
+
+#right-sidebar-infos .secundary-info-value {
+  color: $red;
+}
