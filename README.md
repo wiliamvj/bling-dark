@@ -42,8 +42,8 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
     - 🚀 Detalhes dos Pedidos 
 - 🚀 Comissões
 - 🚀 Checkout de Pedidos de Venda
-- ❌ Pedidos de Venda Multilojas
-- ❌ Relatórios
+- 🚀 Pedidos de Venda Multilojas
+- 🚀 Relatórios
 
 ### Finanças
 - ❌ Caixas e Bancos

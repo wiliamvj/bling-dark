@@ -92,3 +92,9 @@
 .fixed-table-foooter tr:first-child {
   border-bottom: 1px solid $color-comment;
 }
+
+#panel,
+#tempos_filtros,
+#tarefas_filtros {
+  background-color: $color-comment;
+}
