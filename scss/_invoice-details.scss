@@ -42,3 +42,26 @@ ul li {
   padding: 5px;
   font-weight: bold;
 }
+
+.bling-form h1 {
+  color: var(--red-font-color);
+}
+
+.bling-form label {
+  color: var(--white-font-color);
+}
+
+.bling-form select:disabled, .bling-form select:disabled > option, .bling-form input:not([type="checkbox"]):read-only, .bling-form textarea:read-only {
+  background-color: var(--secunday-color);
+}
+
+
+:root {
+  --primary-color: #282a36;
+  --secunday-color: #44475a;
+  --background-color: #272935;
+  --white-font-color: #f8f8f2;
+  --red-font-color: #ff5555;
+
+  --border-primary: 1px solid #
+}
