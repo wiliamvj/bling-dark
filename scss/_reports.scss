@@ -98,3 +98,25 @@
 #tarefas_filtros {
   background-color: $color-comment;
 }
+
+#tr_saldos_ini,
+.receita-row,
+.despesa-row,
+#tr_total_receitas,
+#tr_total_despesas,
+#tr_saldos {
+  background-color: #575e6c !important;
+}
+
+#tr_saldos_fim {
+  background-color: $color-secudary !important;
+}
+
+#balancete-table th {
+  color: $orange !important;
+}
+
+.c3 line,
+.c3 path {
+  stroke: $color-white;
+}

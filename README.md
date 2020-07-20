@@ -49,8 +49,8 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 Caixas e Bancos
 - 🚀 Contas a Pagar
 - 🚀 Contas a Receber
-- ❌ Remessas e Retornos
-- ❌ Ficha Financeira
+- 🚀 Remessas e Retornos
+- 🚀 Ficha Financeira
 - ❌ Relatórios
 
 ### Serviços
