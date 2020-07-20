@@ -54,10 +54,8 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 Relatórios
 
 ### Serviços
-- ❌ CT-e
+- 🚀 CT-e
 
-### ❌ Preferências
-
-### ❌ Manuais
+### 🚀 Preferências
 
 ### 🚀 Suporte
