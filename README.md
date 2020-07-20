@@ -51,7 +51,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - 🚀 Contas a Receber
 - 🚀 Remessas e Retornos
 - 🚀 Ficha Financeira
-- ❌ Relatórios
+- 🚀 Relatórios
 
 ### Serviços
 - ❌ CT-e
