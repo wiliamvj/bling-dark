@@ -8,54 +8,54 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-#### Páginas já com cores do Dracula estão marcados com [X].
+#### Páginas já com cores do Dracula estão marcados com [x].
 
-### [X] Home
+### [x] Home
 
 ### Cadastros
 
-- ## [X] Clientes e Fornecedores (Listagem)
-    - [X] Detalhes dos Clientes
-- [X] Produtos
-    [X] Detalhes dos Produtos (Listagem)
-- [X] Vendedores (Listagem)
-    - [X] Detalhes dos Vendedores (Listagem)
-- [X] Relatórios (Listagem)
-    - [X] Detalhes dos Relatórios (Listagem)
+- [x] Clientes e Fornecedores (Listagem)
+- [x] Detalhes dos Clientes
+- [x] Produtos
+- [x] Detalhes dos Produtos (Listagem)
+- [x] Vendedores (Listagem)
+- [x] Detalhes dos Vendedores (Listagem)
+- [x] Relatórios (Listagem)
+- [x] Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
-- 🚀 Controles de Estoques
-- 🚀 Pedidos de Compra
-- 🚀 Notas de Entrada
-- 🚀 Relatórios
+- [x] Controles de Estoques
+- [x] Pedidos de Compra
+- [x] Notas de Entrada
+- [x] Relatórios
 
 ### Vendas
-- 🚀 Frente de Caixa
-- 🚀 GNRE (Listagem)
-    - 🚀 Detalhes da GNRE
-- 🚀 Integração Logística (Listagem)
-- 🚀 NFC-e
-- 🚀 Propostas Comerciais
-- 🚀 Pedidos de Venda (Listagem)
-    - 🚀 Detalhes dos Pedidos 
-- 🚀 Notas Fiscais (Listagem)
-    - 🚀 Detalhes dos Pedidos 
-- 🚀 Comissões
-- 🚀 Checkout de Pedidos de Venda
-- 🚀 Pedidos de Venda Multilojas
-- 🚀 Relatórios
+- [x] Frente de Caixa
+- [x] GNRE (Listagem)
+- [x] Detalhes da GNRE
+- [x] Integração Logística (Listagem)
+- [x] NFC-e
+- [x] Propostas Comerciais
+- [x] Pedidos de Venda (Listagem)
+- [x] Detalhes dos Pedidos 
+- [x] Notas Fiscais (Listagem)
+- [x] Detalhes dos Pedidos 
+- [x] Comissões
+- [x] Checkout de Pedidos de Venda
+- [x] Pedidos de Venda Multilojas
+- [x] Relatórios
 
 ### Finanças
-- 🚀 Caixas e Bancos
-- 🚀 Contas a Pagar
-- 🚀 Contas a Receber
-- 🚀 Remessas e Retornos
-- 🚀 Ficha Financeira
-- 🚀 Relatórios
+- [x] Caixas e Bancos
+- [x] Contas a Pagar
+- [x] Contas a Receber
+- [x] Remessas e Retornos
+- [x] Ficha Financeira
+- [x] Relatórios
 
 ### Serviços
-- 🚀 CT-e
+- [x] CT-e
 
-### 🚀 Preferências
+### [x] Preferências
 
-### 🚀 Suporte
+### [x] Suporte
