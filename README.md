@@ -8,9 +8,9 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-#### Páginas já com cores do Dracula estão marcados com [x].
+## Páginas já com cores do Dracula estão marcados com [x].
 
-### [x] Home
+## [x] Home
 
 ### Cadastros
 
@@ -23,13 +23,13 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Relatórios (Listagem)
 - [x] Detalhes dos Relatórios (Listagem)
 
-### Suprimentos
+## Suprimentos
 - [x] Controles de Estoques
 - [x] Pedidos de Compra
 - [x] Notas de Entrada
 - [x] Relatórios
 
-### Vendas
+## Vendas
 - [x] Frente de Caixa
 - [x] GNRE (Listagem)
 - [x] Detalhes da GNRE
@@ -45,7 +45,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Pedidos de Venda Multilojas
 - [x] Relatórios
 
-### Finanças
+## Finanças
 - [x] Caixas e Bancos
 - [x] Contas a Pagar
 - [x] Contas a Receber
@@ -53,9 +53,9 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Ficha Financeira
 - [x] Relatórios
 
-### Serviços
+## Serviços
 - [x] CT-e
 
-### [x] Preferências
+## Preferências
 
-### [x] Suporte
+## [x] Suporte
