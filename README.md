@@ -8,20 +8,20 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-#### Páginas já com cores do Dracula estão marcados com 🚀 ainda sem estilização marcados com ❌.
+#### Páginas já com cores do Dracula estão marcados com [X].
 
-### 🚀 Home
+### [X] Home
 
 ### Cadastros
 
-- 🚀 Clientes e Fornecedores (Listagem)
-    - 🚀 Detalhes dos Clientes
-- 🚀 Produtos
-    🚀 Detalhes dos Produtos (Listagem)
-- 🚀 Vendedores (Listagem)
-    - 🚀 Detalhes dos Vendedores (Listagem)
-- 🚀 Relatórios (Listagem)
-    - 🚀 Detalhes dos Relatórios (Listagem)
+- ## [X] Clientes e Fornecedores (Listagem)
+    - [X] Detalhes dos Clientes
+- [X] Produtos
+    [X] Detalhes dos Produtos (Listagem)
+- [X] Vendedores (Listagem)
+    - [X] Detalhes dos Vendedores (Listagem)
+- [X] Relatórios (Listagem)
+    - [X] Detalhes dos Relatórios (Listagem)
 
 ### Suprimentos
 - 🚀 Controles de Estoques
