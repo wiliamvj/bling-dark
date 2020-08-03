@@ -10,7 +10,7 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 
 ## Páginas já com cores do Dracula estão marcados com [x].
 
-## [x] Home
+- [x] Home
 
 ### Cadastros
 
@@ -58,4 +58,4 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 
 ## Preferências
 
-## [x] Suporte
+- [x] Suporte
