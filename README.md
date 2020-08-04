@@ -17,9 +17,9 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Clientes e Fornecedores (Listagem)
 - [x] Detalhes dos Clientes
 - [x] Produtos
-- [x] Detalhes dos Produtos (Listagem)
+- [x] Detalhes dos Produtos (Listagem) *Quebrado*
 - [x] Vendedores (Listagem)
-- [x] Detalhes dos Vendedores (Listagem)
+- [x] Detalhes dos Vendedores (Listagem) *Quebrado*
 - [x] Relatórios (Listagem)
 - [x] Detalhes dos Relatórios (Listagem)
 
@@ -36,10 +36,11 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Integração Logística (Listagem)
 - [x] NFC-e
 - [x] Propostas Comerciais
-- [x] Pedidos de Venda (Listagem)
-- [x] Detalhes dos Pedidos 
+- [x] Pedidos de Venda (Listagem) 
+- [x] Detalhes dos Pedidos *Quebrado*
 - [x] Notas Fiscais (Listagem)
-- [x] Detalhes dos Pedidos 
+- [x] DEtalhes Notas Fiscais (Listagem) *Quebrado*
+- [x] Detalhes dos Pedidos *Quebrado*
 - [x] Comissões
 - [x] Checkout de Pedidos de Venda
 - [x] Pedidos de Venda Multilojas
