@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 /* sales order details */
 
@@ -10,8 +10,8 @@ table.grid-header td {
   background-color: $color-secudary !important;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   color: $color-white;
 }
 
@@ -31,8 +31,8 @@ table.grid-header td input,
   opacity: 0.8 !important;
 }
 
-[class^="icon-"]:hover,
-[class*=" icon-"]:hover {
+[class^='icon-']:hover,
+[class*=' icon-']:hover {
   color: $green;
 }
 
@@ -110,7 +110,7 @@ select[readonly]:focus,
 .button[readOnly],
 .ui-dialog-buttonset button.button {
   border-radius: 4px;
-  font-family: "Roboto", sans;
+  font-family: 'Roboto', sans;
 }
 
 input.no-border,
@@ -129,7 +129,7 @@ textarea:focus {
 
 #listagem_historico_cliente_produto span {
   color: $color-white !important;
-  font-family: "Roboto", sans;
+  font-family: 'Roboto', sans;
 }
 
 .ui-dialog-new table tbody {
@@ -153,13 +153,13 @@ textarea:focus {
   color: $color-white;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   color: $color-white;
 }
 
-[class^="icon-"]:hover,
-[class*=" icon-"]:hover {
+[class^='icon-']:hover,
+[class*=' icon-']:hover {
   color: $green;
 }
 
@@ -191,4 +191,25 @@ div.toogle-checkbox span {
 .alert-box .alert-box-title {
   color: $color-white;
   font-weight: bold;
+}
+
+.bling-form input:not([type='checkbox']),
+.bling-form select,
+.bling-form textarea,
+.bling-form .chosen-choices,
+.bling-item-form {
+  background-color: $color-secudary;
+  color: $color-white;
+  border: 1px solid $black;
+}
+
+.bling-form select:disabled,
+.bling-form select:disabled > option,
+.bling-form input:not([type='checkbox']):read-only,
+.bling-form textarea:read-only {
+  color: $color-white;
+}
+
+#gritens tr td input {
+  background-color: $color-secudary !important;
 }
