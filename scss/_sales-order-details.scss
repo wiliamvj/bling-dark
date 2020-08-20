@@ -213,3 +213,40 @@ div.toogle-checkbox span {
 #gritens tr td input {
   background-color: $color-secudary !important;
 }
+
+.bling-form div.fixed-bar.fixed {
+  background-color: $color-comment;
+}
+
+.bling-form h1 {
+  color: $color-white;
+}
+
+table.itens-list tr td:first-of-type::before,
+.table.itens-list .table-cell:first-of-type::before {
+  background: $purple 0% 0% no-repeat padding-box;
+}
+
+table.itens-list th,
+.table.itens-list .table-head,
+.table.itens-list .table-heading {
+  color: $color-white;
+}
+
+button.call-to-action {
+  background-color: $green;
+}
+
+table.itens-list td:first-of-type,
+table.itens-list td:first-of-type input,
+.table.itens-list .table-cell:first-of-type,
+.table.itens-list .table-cell:first-of-type input,
+table.itens-list td,
+.table.itens-list .table-cell {
+  border: 1px solid $color-comment;
+}
+
+table.itens-list tr:hover,
+.table.itens-list .table-row {
+  background-color: #3d3f4a;
+}
