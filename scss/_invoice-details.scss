@@ -51,11 +51,18 @@ ul li {
   color: var(--white-font-color);
 }
 
-.bling-form select:disabled, .bling-form select:disabled > option, .bling-form input:not([type="checkbox"]):read-only, .bling-form textarea:read-only {
+.bling-form select:disabled,
+.bling-form select:disabled>option,
+.bling-form input:not([type="checkbox"]):read-only,
+.bling-form textarea:read-only {
   background-color: var(--secunday-color);
 }
 
-.bling-form input:not([type="checkbox"]):not([type="radio"]), .bling-form select, .bling-form textarea, .bling-form .chosen-choices, .bling-item-form {
+.bling-form input:not([type="checkbox"]):not([type="radio"]),
+.bling-form select,
+.bling-form textarea,
+.bling-form .chosen-choices,
+.bling-item-form {
   background-color: $color-secudary;
   color: var(--white-font-color);
   border: var(--bling-form-item-border);
