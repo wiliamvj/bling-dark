@@ -13,6 +13,16 @@ SASS minify: sass --watch scs
 
 @import "imports-scss";
 
+:root {
+  --primary-color: #282a36;
+  --secunday-color: #44475a;
+  --background-color: #272935;
+  --white-font-color: #f8f8f2;
+  --red-font-color: #ff5555;
+
+  --bling-form-item-border: 1px solid black;
+}
+
 /* Home */
 
 html,

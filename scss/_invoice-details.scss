@@ -55,13 +55,8 @@ ul li {
   background-color: var(--secunday-color);
 }
 
-
-:root {
-  --primary-color: #282a36;
-  --secunday-color: #44475a;
-  --background-color: #272935;
-  --white-font-color: #f8f8f2;
-  --red-font-color: #ff5555;
-
-  --border-primary: 1px solid #
+.bling-form input:not([type="checkbox"]):not([type="radio"]), .bling-form select, .bling-form textarea, .bling-form .chosen-choices, .bling-item-form {
+  background-color: $color-secudary;
+  color: var(--white-font-color);
+  border: var(--bling-form-item-border);
 }
