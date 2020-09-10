@@ -67,3 +67,13 @@ ul li {
   color: var(--white-font-color);
   border: var(--bling-form-item-border);
 }
+
+.bling-tabs a:link,
+.bling-tabs a:visited,
+.bling-tabs span {
+  color: var(--white-font-color);
+}
+
+.bling-tabs {
+  border-bottom: 1px solid $color-secudary;
+}

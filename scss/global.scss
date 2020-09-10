@@ -19,8 +19,12 @@ SASS minify: sass --watch scs
   --background-color: #272935;
   --white-font-color: #f8f8f2;
   --red-font-color: #ff5555;
+  --yellow-font-color: #f1fa8c;
+  --black-font-color: black;
 
   --bling-form-item-border: 1px solid black;
+
+  --box-shadow: 2px 3px 4px 1px var(--black-font-color, #00000029);
 }
 
 /* Home */
@@ -509,4 +513,48 @@ div[class^="useful-info"] {
 table.itens-list tr:hover,
 .table.itens-list .table-row {
   background-color: $color-primary;
+}
+
+/* cards home */
+
+.e-bling-heading-card {
+  color: var(--yellow-font-color);
+}
+
+.o-bling-card {
+  box-shadow: var(--box-shadow);
+  box-shadow: 1px 2px 5px #00000029;
+  background-color: var(--secunday-color);
+  box-shadow: var(--box-shadow);
+}
+
+.e-storage-megabits-usage {
+  color: $red;
+}
+
+.e-home-stat-counter {
+  color: $orange;
+}
+
+.e-home-stat-label {
+  color: $color-white;
+}
+
+.e-quick-access-item-link,
+.e-quick-access-item-link {
+  color: $green;
+  ;
+  font-weight: 400;
+  transition: 0.2s;
+}
+
+.e-quick-access-item-link:hover,
+.e-quick-access-item-link:hover {
+  color: $green;
+  opacity: 0.7;
+}
+
+.e-advice-box-heading {
+  color: $orange;
+  font-weight: 500;
 }
