@@ -505,3 +505,8 @@ div[class^="useful-info"] {
   color: $color-white !important;
   font-weight: 700;
 }
+
+table.itens-list tr:hover,
+.table.itens-list .table-row {
+  background-color: $color-primary;
+}
