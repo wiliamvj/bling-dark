@@ -55,3 +55,11 @@ a,
 .ui-dialog {
   border: 5px solid $color-secudary;
 }
+
+.action-list .action-item {
+  margin-left: 0;
+}
+
+.action-list li:hover {
+  background-color: #282a36
+}

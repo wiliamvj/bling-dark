@@ -31,7 +31,7 @@
   background: $color-primary !important;
 }
 
-.tabela-listagem > tbody > tr {
+.tabela-listagem>tbody>tr {
   background: $color-secudary;
   border-bottom: 3px solid $color-primary;
   transition: 0.2s;
@@ -69,6 +69,7 @@
   color: $color-white;
   font-weight: bold;
 }
+
 #search-input input:focus {
   color: $color-comment;
   font-weight: bold;
@@ -116,12 +117,12 @@ span.link.clear-all {
   background-color: $red !important;
 }
 
-.input-checkbox input[type="checkbox"]:checked + label {
+.input-checkbox input[type="checkbox"]:checked+label {
   background-color: $green;
   border: 1px solid #06591b;
 }
 
-.input-checkbox input[type="checkbox"]:checked + label:after {
+.input-checkbox input[type="checkbox"]:checked+label:after {
   color: $color-primary;
 }
 
@@ -135,12 +136,12 @@ span.link.clear-all {
   color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu > li > a {
+.tabela-listagem .dropdown-menu>li>a {
   color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:hover i,
+.tabela-listagem .dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:hover i,
 .dropdown-action-btn:hover {
   background-color: $color-primary !important;
 }
@@ -192,10 +193,10 @@ span.link.clear-all {
   border: 1px solid $color-primary;
 }
 
-.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
 .new-box-side-minimized button:not(.button-default-novo):hover,
 .new-side-bar .main-actions button .action-text,
-.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select>.dropdown-toggle.bs-placeholder,
 .new-side-bar select,
 .new-side-bar option,
 .new-box-side-minimized .dropdown-item.dropdown-action-btn {
@@ -207,18 +208,6 @@ span.link.clear-all {
 .new-side-bar .main-actions button:not(.block) span.fas {
   color: #f1fa8c;
   transition: 0.2s;
-}
-
-div.more-actions:not(.open):hover,
-.new-box-side:not(.new-box-side-minimized)
-  .new-side-bar
-  .main-actions
-  button:not(.block):hover,
-.new-box-side:not(.new-box-side-minimized)
-  .new-side-bar
-  li.action-item:not(.block):hover {
-  background-color: $color-secudary;
-  opacity: 0.6;
 }
 
 .new-box-side-minimized {
@@ -249,6 +238,7 @@ div.more-actions:not(.open):hover,
 .action-list .action-group {
   color: $color-white;
 }
+
 .action-list .action-item {
   color: $grey;
 }
@@ -274,6 +264,7 @@ div.more-actions:not(.open):hover,
   box-shadow: 0px 3px 6px $color-secudary;
   border-radius: 5px 10px 10px 0px;
 }
+
 .open-filter .fa-filter {
   color: $color-secudary;
 }
@@ -306,8 +297,8 @@ div.more-actions:not(.open):hover,
   font-weight: bold;
 }
 
-#search-left-area .form-group:not(.filtro-dinamico-area) > select,
-#search-left-area .form-group:not(.filtro-dinamico-area) > .tree-select {
+#search-left-area .form-group:not(.filtro-dinamico-area)>select,
+#search-left-area .form-group:not(.filtro-dinamico-area)>.tree-select {
   background-image: linear-gradient(45deg, transparent 48%, $color-secudary 50%),
     linear-gradient(135deg, $color-secudary 48%, transparent 50%);
 }
@@ -345,16 +336,14 @@ span.link.clear-all:hover {
 
 /* pagination */
 .pagination li:first-of-type span.border-right:not(.is-infinity):first-of-type,
-.pagination
-  li:nth-of-type(4)
-  span.border-right:not(.is-infinity):first-of-type {
+.pagination li:nth-of-type(4) span.border-right:not(.is-infinity):first-of-type {
   border-right: 1px solid $color-primary;
 }
 
-.pagination > li > a,
-.pagination > li > span,
-.pagination > li > a:hover,
-.pagination > li > span:hover {
+.pagination>li>a,
+.pagination>li>span,
+.pagination>li>a:hover,
+.pagination>li>span:hover {
   color: $color-primary;
 }
 
