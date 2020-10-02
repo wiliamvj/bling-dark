@@ -11,7 +11,7 @@ SASS minify: sass --watch scs
 0000s:css --style compressed
 */
 
-@import "imports-scss";
+@import 'imports-scss';
 
 :root {
   --primary-color: #282a36;
@@ -134,13 +134,13 @@ ul.ui-autocomplete {
   border: 1px solid $black;
 }
 
-div[class^="useful-info"] {
+div[class^='useful-info'] {
   background-color: $color-comment;
   color: $color-white;
   border-radius: 5px;
 }
 
-div[class^="useful-info"]:before {
+div[class^='useful-info']:before {
   color: $yellow;
 }
 
@@ -232,7 +232,7 @@ div[class^="useful-info"]:before {
   background-color: $color-secudary;
 }
 
-.popover.bottom>.arrow:after {
+.popover.bottom > .arrow:after {
   border-bottom-color: $color-secudary;
 }
 
@@ -304,12 +304,12 @@ select.item-form * {
   margin-bottom: 3px !important;
 }
 
-.tree-select-container>ul {
+.tree-select-container > ul {
   background-color: $color-secudary !important;
   border: 1px solid $black !important;
 }
 
-.tree-select-container>ul li label {
+.tree-select-container > ul li label {
   color: $color-white !important;
 }
 
@@ -396,9 +396,9 @@ input {
 .btn-primary:focus:active,
 .btn-primary:active:hover,
 .btn-primary.selected,
-.open>.dropdown-toggle.btn-primary,
-.open>.dropdown-toggle.btn-primary:hover,
-.open>.dropdown-toggle.btn-primary:focus {
+.open > .dropdown-toggle.btn-primary,
+.open > .dropdown-toggle.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary:focus {
   background-color: $color-comment;
   color: $color-white;
 }
@@ -491,7 +491,7 @@ select[readonly]:focus,
   background-color: $color-secudary;
 }
 
-#etiquetaForm #fieldsBox>li {
+#etiquetaForm #fieldsBox > li {
   color: $color-white;
 }
 
@@ -505,7 +505,7 @@ select[readonly]:focus,
   border: 1px solid $color-secudary !important;
 }
 
-div[class^="useful-info"] {
+div[class^='useful-info'] {
   color: $color-white !important;
   font-weight: 700;
 }
@@ -543,7 +543,6 @@ table.itens-list tr:hover,
 .e-quick-access-item-link,
 .e-quick-access-item-link {
   color: $green;
-  ;
   font-weight: 400;
   transition: 0.2s;
 }
@@ -557,4 +556,19 @@ table.itens-list tr:hover,
 .e-advice-box-heading {
   color: $orange;
   font-weight: 500;
+}
+
+.datepicker table tr td.range,
+.datepicker table tr td.range.disabled,
+.datepicker table tr td.range.disabled:hover,
+.datepicker table tr td.range:hover {
+  background: $color-primary;
+}
+
+.datepicker table tr td.day.focused,
+.datepicker table tr td.day:hover {
+  background-color: $red;
+  cursor: pointer;
+  color: $black;
+  border-radius: 4px;
 }
