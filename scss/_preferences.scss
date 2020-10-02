@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 /* preferences */
 
@@ -84,15 +84,15 @@
   background-color: $color-secudary;
 }
 
-li [class^="icon-"],
-li [class*=" icon-"],
-.nav li [class^="icon-"],
-.nav li [class*=" icon-"] {
+li [class^='icon-'],
+li [class*=' icon-'],
+.nav li [class^='icon-'],
+.nav li [class*=' icon-'] {
   color: $color-white;
 }
 
-[class^="icon-"]:hover,
-[class*=" icon-"]:hover {
+[class^='icon-']:hover,
+[class*=' icon-']:hover {
   color: $yellow;
 }
 
@@ -302,11 +302,11 @@ textarea:focus {
   background-color: $color-secudary;
 }
 
-div[class^="useful-info"] {
+div[class^='useful-info'] {
   background-color: $color-comment !important;
 }
 
-div[class^="useful-info"] h3 {
+div[class^='useful-info'] h3 {
   color: $yellow;
 }
 
@@ -566,4 +566,18 @@ label.label-item {
 
 span.release-preview {
   color: $red;
+}
+
+.grid-header tr th {
+  color: $color-white;
+}
+#boxServicosLogisticaUtilizados tr,
+.tagsinput {
+  background-color: $color-secudary !important;
+}
+
+div.tagsinput input {
+  background-color: $black !important;
+  margin-left: 10px;
+  border-radius: 4px;
 }
