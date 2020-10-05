@@ -581,3 +581,29 @@ div.tagsinput input {
   margin-left: 10px;
   border-radius: 4px;
 }
+
+// digital certificate
+
+#menu-passos-compra {
+  background-color: $color-primary !important;
+}
+
+#dados-compra {
+  background-color: $color-secudary !important;
+}
+
+#informacoes-requisitos span {
+  color: $orange !important;
+}
+
+#square {
+  border: solid 1px $color-primary;
+}
+.row-eq-height,
+.ticket-type::before {
+  background-color: $color-primary !important;
+}
+
+.menu-compra-certificado li {
+  color: $color-white;
+}
