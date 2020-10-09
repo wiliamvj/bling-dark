@@ -572,3 +572,16 @@ table.itens-list tr:hover,
   color: $black;
   border-radius: 4px;
 }
+
+.bling-form h3 {
+  color: $orange;
+}
+
+[class^='icon-'],
+[class*=' icon-'] {
+  color: $yellow;
+}
+
+.alert-box h4:before {
+  color: $yellow;
+}
