@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 /* products init */
 
@@ -21,7 +21,7 @@
 }
 
 #datatable table thead tr th,
-[id^="addDatatable"] table thead tr th {
+[id^='addDatatable'] table thead tr th {
   background: $color-primary;
   color: $color-white;
   font-weight: bold;
@@ -31,7 +31,7 @@
   background: $color-primary !important;
 }
 
-.tabela-listagem>tbody>tr {
+.tabela-listagem > tbody > tr {
   background: $color-secudary;
   border-bottom: 3px solid $color-primary;
   transition: 0.2s;
@@ -42,7 +42,7 @@
 }
 
 #datatable td,
-[id^="addDatatable"] td,
+[id^='addDatatable'] td,
 .painel-parametros .datatable td {
   color: $color-white;
   font-weight: bold;
@@ -114,15 +114,15 @@ span.link.clear-all {
 }
 
 .tabela-listagem tr.selected {
-  background-color: $red !important;
+  background-color: $color-comment !important;
 }
 
-.input-checkbox input[type="checkbox"]:checked+label {
+.input-checkbox input[type='checkbox']:checked + label {
   background-color: $green;
   border: 1px solid #06591b;
 }
 
-.input-checkbox input[type="checkbox"]:checked+label:after {
+.input-checkbox input[type='checkbox']:checked + label:after {
   color: $color-primary;
 }
 
@@ -136,12 +136,12 @@ span.link.clear-all {
   color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu>li>a {
+.tabela-listagem .dropdown-menu > li > a {
   color: $color-white !important;
 }
 
-.tabela-listagem .dropdown-menu>li>a:hover,
-.dropdown-menu>li>a:hover i,
+.tabela-listagem .dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:hover i,
 .dropdown-action-btn:hover {
   background-color: $color-primary !important;
 }
@@ -158,7 +158,7 @@ span.link.clear-all {
   border-color: $color-secudary;
 }
 
-#sacola_compras[data-qty="0"] {
+#sacola_compras[data-qty='0'] {
   color: $green;
 }
 
@@ -193,10 +193,10 @@ span.link.clear-all {
   border: 1px solid $color-primary;
 }
 
-.bootstrap-select>.dropdown-toggle.bs-placeholder:hover,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover,
 .new-box-side-minimized button:not(.button-default-novo):hover,
 .new-side-bar .main-actions button .action-text,
-.bootstrap-select>.dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
 .new-side-bar select,
 .new-side-bar option,
 .new-box-side-minimized .dropdown-item.dropdown-action-btn {
@@ -297,8 +297,8 @@ span.link.clear-all {
   font-weight: bold;
 }
 
-#search-left-area .form-group:not(.filtro-dinamico-area)>select,
-#search-left-area .form-group:not(.filtro-dinamico-area)>.tree-select {
+#search-left-area .form-group:not(.filtro-dinamico-area) > select,
+#search-left-area .form-group:not(.filtro-dinamico-area) > .tree-select {
   background-image: linear-gradient(45deg, transparent 48%, $color-secudary 50%),
     linear-gradient(135deg, $color-secudary 48%, transparent 50%);
 }
@@ -336,14 +336,16 @@ span.link.clear-all:hover {
 
 /* pagination */
 .pagination li:first-of-type span.border-right:not(.is-infinity):first-of-type,
-.pagination li:nth-of-type(4) span.border-right:not(.is-infinity):first-of-type {
+.pagination
+  li:nth-of-type(4)
+  span.border-right:not(.is-infinity):first-of-type {
   border-right: 1px solid $color-primary;
 }
 
-.pagination>li>a,
-.pagination>li>span,
-.pagination>li>a:hover,
-.pagination>li>span:hover {
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:hover,
+.pagination > li > span:hover {
   color: $color-primary;
 }
 
@@ -395,7 +397,7 @@ span.link.clear-all:hover {
   border: 1px solid $black;
   font-weight: bold;
   padding: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #relatorio tr th,
