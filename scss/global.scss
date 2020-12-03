@@ -589,3 +589,7 @@ table.itens-list tr:hover,
 .subtitulo {
   color: $color-white;
 }
+
+.boxy-wrapper.fixed {
+  border: 2px solid $color-comment;
+}
