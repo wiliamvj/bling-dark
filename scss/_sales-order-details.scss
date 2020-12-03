@@ -245,3 +245,11 @@ table.itens-list tr:hover,
 #categoria span {
   color: $color-white;
 }
+
+table.itens-list td:first-of-type,
+table.itens-list td:first-of-type input,
+.table.itens-list .table-cell:first-of-type,
+.table.itens-list .table-cell:first-of-type input,
+table.itens-list td {
+  background: $color-secudary;
+}
