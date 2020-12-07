@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 /* invoices */
 
@@ -98,4 +98,9 @@ p {
   font-size: 12px;
   font-weight: 700;
   border-radius: 4px;
+}
+
+.ui-dialog-content,
+.ui-widget-content {
+  background-color: $color-primary;
 }
