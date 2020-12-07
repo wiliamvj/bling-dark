@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
 /* ==UserStyle==
 @name        Bling Dark
 @version     1.0
@@ -31,7 +30,7 @@ SASS minify: sass --watch scs
 
 html,
 body {
-  font-family: 'Fira Code', monospace, sans-serif !important;
+  font-family: 'JetBrains Mono', monospace !important;
   background: $color-primary !important;
 }
 
