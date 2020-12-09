@@ -592,3 +592,18 @@ table.itens-list tr:hover,
 .boxy-wrapper.fixed {
   border: 2px solid $color-comment;
 }
+
+div.more-actions:not(.open):hover,
+.new-box-side:not(.new-box-side-minimized)
+  .new-side-bar
+  .main-actions
+  button:not(.block):hover,
+.new-box-side:not(.new-box-side-minimized)
+  .new-side-bar
+  li.action-item:not(.block):hover {
+  background-color: $color-primary;
+}
+
+.new-side-bar li.action-item:not(.block):hover {
+  margin: 0;
+}
