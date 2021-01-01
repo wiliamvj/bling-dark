@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 /* sales orders */
 
@@ -15,7 +15,7 @@
 span.new {
   background-color: $red;
   font-size: 6.5pt;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .label-item-form-toggle {
@@ -61,5 +61,9 @@ a,
 }
 
 .action-list li:hover {
-  background-color: #282a36
+  background-color: #282a36;
+}
+
+.fa-eye {
+  color: #44475a;
 }
