@@ -1,9 +1,9 @@
-@import "variables";
+@import 'variables';
 
 /* support */
 
 .box-central-ajuda {
-  background-color: $color-comment;
+  background-color: $color-secudary;
 }
 
 .box-central-ajuda .box-title {
@@ -16,7 +16,7 @@
 }
 
 .box-content #datatable tr:nth-child(even).highlight,
-.box-content [id^="addDatatable"] tr:nth-child(even).highlight {
+.box-content [id^='addDatatable'] tr:nth-child(even).highlight {
   background: $color-comment;
 }
 
@@ -66,7 +66,7 @@
 
 .row-eq-height,
 .ticket-type::before {
-  content: "";
+  content: '';
   background-color: $color-comment !important;
   color: $red !important;
 }
