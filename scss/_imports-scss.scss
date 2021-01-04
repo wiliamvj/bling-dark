@@ -1,37 +1,39 @@
-@import "variables";
+@import 'variables';
 
-@import "invoice-details";
-@import "invoices";
+@import 'invoice-details';
+@import 'invoices';
 
-@import "sales-order-details";
-@import "sales-order";
+@import 'sales-order-details';
+@import 'sales-order';
 
-@import "client-details";
-@import "clients";
+@import 'client-details';
+@import 'clients';
 
-@import "products";
-@import "product-details";
+@import 'products';
+@import 'product-details';
 
-@import "seller-details";
+@import 'seller-details';
 
-@import "reports";
+@import 'reports';
 
-@import "gnre-details";
+@import 'gnre-details';
 
-@import "stock";
+@import 'stock';
 
-@import "bills-to-pay";
+@import 'bills-to-pay';
 
-@import "preferences";
+@import 'preferences';
 
-@import "commissions";
+@import 'commissions';
 
-@import "support";
+@import 'support';
 
-@import "nfce";
+@import 'nfce';
 
-@import "boxfront";
+@import 'boxfront';
 
-@import "multi-sales-orders";
+@import 'multi-sales-orders';
 
-@import "bank-box";
+@import 'bank-box';
+
+@import 'bank-reconciliation';
