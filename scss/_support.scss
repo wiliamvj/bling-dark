@@ -99,7 +99,13 @@
   background-color: $color-secudary;
 }
 
-.top-search #mini-pesquisa input.pesquisa,
-.search-filter-action {
+.top-search #mini-pesquisa input.pesquisa {
   background: $color-primary;
+}
+
+.search-filter-action,
+#btn-mini-search {
+  color: $color-primary;
+  background: $green !important;
+  font-weight: bold;
 }
