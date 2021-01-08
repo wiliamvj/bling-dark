@@ -607,3 +607,7 @@ div.more-actions:not(.open):hover,
 .new-side-bar li.action-item:not(.block):hover {
   margin: 0;
 }
+
+.alert-box-form-error {
+  background-color: $color-secudary !important;
+}
