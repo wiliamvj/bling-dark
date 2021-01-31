@@ -11,7 +11,6 @@ Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo cr
 - [x] Home
 
 ### Cadastros
-
 - [x] Clientes e Fornecedores (Listagem)
 - [x] Detalhes dos Clientes
 - [x] Produtos
