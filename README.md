@@ -6,8 +6,6 @@ Adicione a extenção [Stylus](https://add0n.com/stylus.html) para o [Firefox](h
 
 Copie o código do arquivo `global.css` dentro da pasta **CSS** para o estilo criado. E adicione a URL que inicie com `https://www.bling.com.br/`
 
-## Páginas já com cores do Dracula estão marcados com [x].
-
 - [x] Home
 
 ### Cadastros
