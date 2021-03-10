@@ -1,3 +1,5 @@
+<a href="https://github.com/wiliamvj/bling-dark/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/wiliamvj/bling-dark?style=plastic"></a>
+
 ##  👨🏻‍💻 Tema Dark Dracula para o Bling ERP
 
 ## Instalação
